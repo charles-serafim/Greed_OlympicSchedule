@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <title>OlympicSchedule</title>
-
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title> Olympic Schedule </title>
     <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+
+        #atracoesContainer {
+            display: none;
+            /* Ocultar o container por padrão */
+        }
+    </style>
+     <style>
         /* Estilo para remover o marcador de lista antes dos checkboxes */
         ul {
             list-style-type: none;
@@ -12,24 +32,113 @@
     </style>
 </head>
 
-<body>
-    <div id="categoryListDiv">
-        <h1>Modalidades</h1>
-        <ul id="categoryList">
-            <!-- Aqui a lista será renderizada -->
-        </ul>
+<body class="bg-dark">
+   
+<nav class=" navbar navbar-expand-lg navbar navbar-dark bg-dark ">
+    <a class=" navbar-brand" href="#">&nbsp; Olympic Schedule</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://press.paris2024.org/assets/paris-2024-olympic-sport-events-schedule-1-pdf-3a20-7578a.html?lang=en">Cronograma dos Jogos<span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/projeto-de-algoritmos/Grafos2_Boat-Tour">Git Hub</a>
+            </li>
+    </div>
+</nav>
+
+    <!--Para mudar a imagen altere o nome em style(t.jpg)-->
+    <div class="pb-5 mb-1 mx-5 mt-1 rounded shadow" style="background-image: url('t.jpg');">
+
+        <div class="myLoc pb-5 mb-5 mx-5">
+            <div class="row">
+                <div class="text-center">
+                    <!-- <h1 style="color: rgb(0, 0, 0);"">Amazon Boat Tour</h1> -->
+                </div>
+                <!-- <div class=" col-sm">
+                        <h2 style="color: rgb(0, 0, 0)" ;></h2>
+                </div> -->
+            </div>
+        </div>
+
+
+
+        <div class="container rounded bg-light shadow p-4">
+                
+            </br>
+            <div class="col text-center">
+                <img class="pb-3" src="logo.png" alt="Minha Figura" width="200px" height="230px">
+                <h2>Jogos Olímpicos de 2024 </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 -md-2 mt-3">
+                    <div>
+                        <div class="box mt-0 d-flex justify-content-center align-items-center">
+                            <div id="categoryListDiv">
+                                <h1>Selecione as Modalidades</h1>
+                                <ul id="categoryList" class="list-group">
+                                    <!-- Aqui a lista será renderizada -->
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="box mt-0 d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="box d-flex justify-content-center align-items-center">
+                        </div>
+                        <div class="box mb-0 mt-4 d-flex justify-content-center align-items-center">
+                           
+                            <!-- Button trigger modal -->
+                            <div>
+                                <button id ="showSelectedButton" type="button" class="btn btn-dark ml-3">
+                                    Montar roteiro
+                                </button> 
+                                
+                            </div>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="divAtracoes p-3 mt-5" style="overflow: auto; max-height: 230px;" id="atracoesContainer">
+                        <h4>Atrações na sua rota:</h4>
+                        <ul class="list-unstyled" id="atracoesList" style="text-align: left;"></ul>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 ">
+                    <div id="minhaDiv" class="minimizada rounded ">
+                         <div id="categoryListDiv">
+
+                        <ul id="categoryList" class="list-group" >
+                            <!-- Aqui a lista será renderizada -->
+                        </ul>
+                    </div>
+
+
+                    <div id="selectedCategoriesDiv">
+                        <h1>Seu roteiro</h1>
+                        <ul id="selectedCategories">
+                            <!-- Aqui a lista será renderizada -->
+                        </ul>
+                    </div>
+
+                    <script src="script.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+        <iframe src="https://giphy.com/embed/xd9gIexjZKYpyZFv1A" width="100" height="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/olympics-mascot-paris-2024-olympic-xd9gIexjZKYpyZFv1A"></a></p>
+        </div>
     </div>
 
-    <button id="showSelectedButton">Montar roteiro</button>
-
-    <div id="selectedCategoriesDiv">
-        <h1>Seu roteiro</h1>
-        <ul id="selectedCategories">
-            <!-- Aqui a lista será renderizada -->
-        </ul>
-    </div>
-
-    <script src="script.js"></script>
+    <footer class="text-center mt-3 mb-3 text-light">
+        <p>&copy <a href="https://github.com/charles-serafim">Charles Serafim</a> && <a
+                href="https://github.com/thiago-Cerq">Thiago Cerqueira</a></p>
+    </footer>
 </body>
 
 </html>

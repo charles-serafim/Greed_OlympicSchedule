@@ -511,16 +511,18 @@ function renderCategoryList() {
 
     categories.forEach(category => {
         const li = document.createElement('li');
+        li.classList.add("list-group-item");
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.name = 'categoryCheckbox';
         checkbox.value = category.id;
         checkbox.checked = category.selected;
         const label = document.createElement('label');
-        label.textContent = category.name;
+        label.textContent = " " + category.name;
         label.htmlFor = checkbox.value;
         li.appendChild(checkbox);
         li.appendChild(label);
+        li.classList.add("list-group-item");
         lista.appendChild(li);
     });
 }
@@ -578,6 +580,7 @@ function showSelectedCategories() {
         for (const sessionName in scheduledSessions) {
             const session = scheduledSessions[sessionName];
             const li = document.createElement('li');
+            li.classList.add("list-group-item");
         
             // Adiciona a data se ela existir
             if (session.date) {
