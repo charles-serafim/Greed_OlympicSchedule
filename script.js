@@ -1,3 +1,4 @@
+// dados das competições
 const categories = [
     {
         id: 1,
@@ -505,7 +506,7 @@ const categories = [
     },
     {
         id: 8,
-        name: "Boxe - BOXe",
+        name: "Boxe",
         selected: false,
         sessions: [
             {
@@ -1293,7 +1294,7 @@ const categories = [
     }
 ];
 
-// Função para renderizar os dados na lista
+// função para renderizar os dados na lista
 function renderCategoryList() {
     const lista = document.getElementById('categoryList');
 
@@ -1315,9 +1316,22 @@ function renderCategoryList() {
     });
 }
 
+// função para formatar a hora
+function formatTime(dateString) {
+    const options = { hour: '2-digit', minute: '2-digit' };
+    return new Date(dateString).toLocaleTimeString('pt-BR', options);
+}
+
+// função para formatar a data
+function formatDate(dateString) {
+    const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+    return new Date(dateString).toLocaleDateString('pt-BR', options);
+}
+
 const showSelectedButton = document.getElementById('showSelectedButton');
 const selectedCategoriesDiv = document.getElementById('selectedCategories');
 
+// função para mostrar as modalidades selecionadas com o interval scheduling
 function showSelectedCategories() {
     selectedCategoriesDiv.innerHTML = ''; // Limpar o conteúdo anterior
 
@@ -1389,16 +1403,6 @@ function showSelectedCategories() {
         }
         selectedCategoriesDiv.appendChild(selectedCategoriesList);
     }
-}
-
-function formatTime(dateString) {
-    const options = { hour: '2-digit', minute: '2-digit' };
-    return new Date(dateString).toLocaleTimeString('pt-BR', options);
-}
-
-function formatDate(dateString) {
-    const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
-    return new Date(dateString).toLocaleDateString('pt-BR', options);
 }
 
 // Chame a função para renderizar a lista quando a página carregar
