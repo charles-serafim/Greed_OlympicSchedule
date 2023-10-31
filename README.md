@@ -27,15 +27,15 @@ A execução do programa e explicação da aplicação dos algoritmos e código 
 ## Screenshots
 
 Página inicial
-![image](https://github.com/projeto-de-algoritmos/Grafos2_Amazon-Boat-Tour/assets/65683663/1d96a88b-a16d-424d-86ee-f62810f10164)
+![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/pagina-inicial.png)
 
 
 Selecionando modalidades
-![image](https://github.com/projeto-de-algoritmos/Grafos2_Amazon-Boat-Tour/assets/65683663/8f175626-2e3a-46e5-a1f7-c060564cab5b)
+![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/selecionando.png)
 
 
 Gerando roteiro
-![image](https://github.com/projeto-de-algoritmos/Grafos2_Amazon-Boat-Tour/assets/65683663/08f3d2a8-3dea-4254-a956-03f2f6f45138)
+![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/roteiro.png)
 
 
 
@@ -48,7 +48,7 @@ Para rodar o projeto localmente:
 
 ## Uso 
 
-A aplicação pode ser utilizada no GitHub Pages do projeto, acessível através deste [link]([https://projeto-de-algoritmos.github.io/Grafos2_Amazon-Boat-Tour/](https://projeto-de-algoritmos.github.io/Greed_OlympicSchedule/)).
+A aplicação pode ser utilizada no GitHub Pages do projeto, acessível através deste [link](https://projeto-de-algoritmos.github.io/Greed_OlympicSchedule/).
 
 Uma vez dentro da aplicação, para gerar os roteiros, basta seguir os seguintes passos:
 
