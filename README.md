@@ -1,56 +1,52 @@
 # Olympic Schedule
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: Greed <br>
+## Students
 
-## Alunos
-
-| Matrícula | Aluno                   |
-| --------- | ----------------------- |
-| 190113596 | Charles Serafim Morais  |
-| 190117508 | Thiago Cerqueira Borges |
+| Reg. number | Student                 |
+| ----------- | ----------------------- |
+| 190113596   | Charles Serafim Morais  |
+| 190117508   | Thiago Cerqueira Borges |
 
 
-## Sobre 
+## About
 
-No ano de 2024, o mundo voltará seus olhos para a cidade de Paris, onde atletas de elite de todo o globo se reunirão para competir nos Jogos Olímpicos, um dos eventos mais grandiosos e inspiradores do esporte. Com tantas modalidades emocionantes e eventos imperdíveis, fãs e entusiastas olímpicos de todos os lugares estarão ansiosos por maneiras de acompanhar cada salto, corrida e recorde mundial estabelecido. É aqui que entra nossa aplicação.
+In the year 2024, the world will turn its eyes to the city of Paris, where elite athletes from around the globe will gather to compete in the Olympic Games, one of the most grand and inspiring sporting events. With so many thrilling disciplines and must-see events, Olympic fans and enthusiasts from everywhere will be eager to find ways to follow every jump, race, and world record set. This is where our application comes in.
+
+The goal of our work is to provide an application based on one of the algorithms presented during the Advanced Programming class. This application will allow anyone to create customized schedules to follow all the disciplines of the 2024 Olympics, taking place in the stunning city of Paris. This application will be your key to exploring the world's grandest sporting event in a way that allows you to enjoy various sports disciplines.
 
 
-O objetivo do nosso trabalho é fornecer uma aplicação baseada em um dos algoritmos apresentados durante a aula de Programação Avançada. Essa aplicação permitirá que qualquer pessoa crie roteiros personalizados para acompanhar todas as modalidades das Olimpíadas de 2024, que acontecerão na deslumbrante cidade de Paris. Esta aplicação será a sua chave para explorar o evento esportivo mais grandioso do mundo de uma maneira que permitirá desfrutar de diversas modalidades esportivas.
+## Presentation Video (In portuguese)
 
-
-## Vídeo de apresentação
-
-A execução do programa e explicação da aplicação dos algoritmos e código podem ser vistas através de download do [arquivo do vídeo da apresentação, constante dentro desse repositório](https://github.com/projeto-de-algoritmos/Greed_OlympicSchedule/blob/master/Apresenta%C3%A7%C3%A3o%20de%20Greed%20Olympic%20Schedule.mp4) ou no [YouTube](https://youtu.be/khfqPLkh1LQ).
+The execution of the program and explanation of the application of the algorithms and code can be viewed by downloading the [file](https://github.com/charles-serafim/Greed_OlympicSchedule/raw/master/Apresenta%C3%A7%C3%A3o%20de%20Greed%20Olympic%20Schedule.mp4) or in [YouTube](https://youtu.be/khfqPLkh1LQ).
 
 
 ## Screenshots
 
-Página inicial
+Home page
 ![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/pagina-inicial.png)
 
 
-Selecionando modalidades
+Selecting sports
 ![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/selecionando.png)
 
 
-Gerando roteiro
+Generating schedule
 ![image](https://raw.githubusercontent.com/projeto-de-algoritmos/Greed_OlympicSchedule/master/img/roteiro.png)
 
 
 
-## Instalação 
+## Installing
 
-Para rodar o projeto localmente:
+To run the project locally:
 
-**Linguagem**: JavaScript <br>
+**Language**: JavaScript <br>
 **Framework**: Bootstrap <br>
 
-## Uso 
+## Using
 
-A aplicação pode ser utilizada no GitHub Pages do projeto, acessível através deste [link](https://projeto-de-algoritmos.github.io/Greed_OlympicSchedule/).
+The application can be used on the project's GitHub Pages, accessible through this [link](https://charles-serafim.github.io/Greed_OlympicSchedule/).
 
-Uma vez dentro da aplicação, para gerar os roteiros, basta seguir os seguintes passos:
+Once inside the application, to generate the schedules, simply follow these steps:
 
-1° - Selecione modalidades de sua preferência.<br>
-2° - Selecione Montar Roteiro.<br>
+1 - Choose your preferred sports disciplines.<br>
+2 - Select Build Schedule.<br>

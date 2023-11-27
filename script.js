@@ -2,111 +2,111 @@
 const categories = [
     {
         id: 1,
-        name: "Atletismo",
+        name: "Athletics",
         selected: false,
         sessions: [
             {
-                name: "Atletismo - ATH01",
+                name: "Athletics - ATH01",
                 startTime: new Date("2024-08-01T07:30"),
                 endTime: new Date("2024-08-01T11:45"),
             },
             {
-                name: "Atletismo - ATH02",
+                name: "Athletics - ATH02",
                 startTime: new Date("2024-08-02T10:00"),
                 endTime: new Date("2024-08-02T13:00"),
             },
             {
-                name: "Atletismo - ATH03",
+                name: "Athletics - ATH03",
                 startTime: new Date("2024-08-02T19:00"),
                 endTime: new Date("2024-08-02T22:00"),
             },
             {
-                name: "Atletismo - ATH04",
+                name: "Athletics - ATH04",
                 startTime: new Date("2024-08-03T10:00"),
                 endTime: new Date("2024-08-03T16:00"),
             },
             {
-                name: "Atletismo - ATH05",
+                name: "Athletics - ATH05",
                 startTime: new Date("2024-08-03T19:00"),
                 endTime: new Date("2024-08-03T22:00"),
             },
             {
-                name: "Atletismo - ATH06",
+                name: "Athletics - ATH06",
                 startTime: new Date("2024-08-04T10:00"),
                 endTime: new Date("2024-08-04T13:00"),
             },
             {
-                name: "Atletismo - ATH07",
+                name: "Athletics - ATH07",
                 startTime: new Date("2024-08-04T19:00"),
                 endTime: new Date("2024-08-04T22:00"),
             },
             {
-                name: "Atletismo - ATH08",
+                name: "Athletics - ATH08",
                 startTime: new Date("2024-08-05T10:00"),
                 endTime: new Date("2024-08-05T13:00"),
             },
             {
-                name: "Atletismo - ATH09",
+                name: "Athletics - ATH09",
                 startTime: new Date("2024-08-05T19:00"),
                 endTime: new Date("2024-08-05T22:00"),
             },
             {
-                name: "Atletismo - ATH10",
+                name: "Athletics - ATH10",
                 startTime: new Date("2024-08-06T10:00"),
                 endTime: new Date("2024-08-06T13:00"),
             },
             {
-                name: "Atletismo - ATH11",
+                name: "Athletics - ATH11",
                 startTime: new Date("2024-08-06T19:00"),
                 endTime: new Date("2024-08-06T22:00"),
             },
             {
-                name: "Atletismo - ATH12",
+                name: "Athletics - ATH12",
                 startTime: new Date("2024-08-07T07:30"),
                 endTime: new Date("2024-08-07T11:00"),
             },
             {
-                name: "Atletismo - ATH13",
+                name: "Athletics - ATH13",
                 startTime: new Date("2024-08-07T10:00"),
                 endTime: new Date("2024-08-07T13:00"),
             },
             {
-                name: "Atletismo - ATH14",
+                name: "Athletics - ATH14",
                 startTime: new Date("2024-08-07T19:00"),
                 endTime: new Date("2024-08-07T22:00"),
             },
             {
-                name: "Atletismo - ATH15",
+                name: "Athletics - ATH15",
                 startTime: new Date("2024-08-08T10:00"),
                 endTime: new Date("2024-08-08T13:00"),
             },
             {
-                name: "Atletismo - ATH16",
+                name: "Athletics - ATH16",
                 startTime: new Date("2024-08-08T19:00"),
                 endTime: new Date("2024-08-08T22:00"),
             },
             {
-                name: "Atletismo - ATH17",
+                name: "Athletics - ATH17",
                 startTime: new Date("2024-08-09T10:00"),
                 endTime: new Date("2024-08-09T13:00"),
             },
             {
-                name: "Atletismo - ATH18",
+                name: "Athletics - ATH18",
                 startTime: new Date("2024-08-09T19:00"),
                 endTime: new Date("2024-08-09T22:00"),
             },
             {
-                name: "Atletismo - ATH19",
+                name: "Athletics - ATH19",
                 startTime: new Date("2024-08-10T08:00"),
                 endTime: new Date("2024-08-10T11:15"),
             },
             {
-                name: "Atletismo - ATH20",
+                name: "Athletics - ATH20",
                 startTime: new Date("2024-08-10T19:00"),
                 endTime: new Date("2024-08-10T22:00"),
             },
             {
-                name: "Atletismo - ATH21",
+                name: "Athletics - ATH21",
                 startTime: new Date("2024-08-11T08:00"),
                 endTime: new Date("2024-08-11T11:30"),
             },
@@ -251,96 +251,96 @@ const categories = [
     },
     {
         id: 3,
-        name: "Basquetebol 3X3",
+        name: "Basketball 3X3",
         selected: false,
         sessions: [
             {
-                name: "Basquete 3X3 - BK301",
+                name: "Basketball 3X3 - BK301",
                 startTime: new Date("2024-07-30T17:30"),
                 endTime: new Date("2024-07-30T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK302",
+                name: "Basketball 3X3 - BK302",
                 startTime: new Date("2024-07-30T21:00"),
                 endTime: new Date("2024-07-30T23:00"),
             },
             {
-                name: "Basquete 3X3 - BK303",
+                name: "Basketball 3X3 - BK303",
                 startTime: new Date("2024-07-31T17:30"),
                 endTime: new Date("2024-07-31T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK304",
+                name: "Basketball 3X3 - BK304",
                 startTime: new Date("2024-07-31T21:00"),
                 endTime: new Date("2024-07-31T23:00"),
             },
             {
-                name: "Basquete 3X3 - BK305",
+                name: "Basketball 3X3 - BK305",
                 startTime: new Date("2024-08-01T09:00"),
                 endTime: new Date("2024-08-01T11:00"),
             },
             {
-                name: "Basquete 3X3 - BK306",
+                name: "Basketball 3X3 - BK306",
                 startTime: new Date("2024-08-01T12:30"),
                 endTime: new Date("2024-08-01T14:30"),
             },
             {
-                name: "Basquete 3X3 - BK307",
+                name: "Basketball 3X3 - BK307",
                 startTime: new Date("2024-08-01T18:00"),
                 endTime: new Date("2024-08-01T20:00"),
             },
             {
-                name: "Basquete 3X3 - BK308",
+                name: "Basketball 3X3 - BK308",
                 startTime: new Date("2024-08-01T21:30"),
                 endTime: new Date("2024-08-01T23:30"),
             },
             {
-                name: "Basquete 3X3 - BK309",
+                name: "Basketball 3X3 - BK309",
                 startTime: new Date("2024-08-02T09:00"),
                 endTime: new Date("2024-08-02T11:00"),
             },
             {
-                name: "Basquete 3X3 - BK310",
+                name: "Basketball 3X3 - BK310",
                 startTime: new Date("2024-08-02T12:30"),
                 endTime: new Date("2024-08-02T14:30"),
             },
             {
-                name: "Basquete 3X3 - BK311",
+                name: "Basketball 3X3 - BK311",
                 startTime: new Date("2024-08-02T17:30"),
                 endTime: new Date("2024-08-02T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK312",
+                name: "Basketball 3X3 - BK312",
                 startTime: new Date("2024-08-02T21:00"),
                 endTime: new Date("2024-08-02T23:00"),
             },
             {
-                name: "Basquete 3X3 - BK313",
+                name: "Basketball 3X3 - BK313",
                 startTime: new Date("2024-08-03T17:30"),
                 endTime: new Date("2024-08-03T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK314",
+                name: "Basketball 3X3 - BK314",
                 startTime: new Date("2024-08-03T21:30"),
                 endTime: new Date("2024-08-03T23:30"),
             },
             {
-                name: "Basquete 3X3 - BK315",
+                name: "Basketball 3X3 - BK315",
                 startTime: new Date("2024-08-04T17:30"),
                 endTime: new Date("2024-08-04T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK316",
+                name: "Basketball 3X3 - BK316",
                 startTime: new Date("2024-08-04T21:30"),
                 endTime: new Date("2024-08-04T23:30"),
             },
             {
-                name: "Basquete 3X3 - BK317",
+                name: "Basketball 3X3 - BK317",
                 startTime: new Date("2024-08-05T17:30"),
                 endTime: new Date("2024-08-05T19:30"),
             },
             {
-                name: "Basquete 3X3 - BK318",
+                name: "Basketball 3X3 - BK318",
                 startTime: new Date("2024-08-05T21:00"),
                 endTime: new Date("2024-08-05T23:20"),
             },
@@ -409,96 +409,96 @@ const categories = [
     },
     {
         id: 7,
-        name: "Tiro com Arco",
+        name: "Archery",
         selected: false,
         sessions: [
             {
-                name: "Tiro com Arco - ARC01",
+                name: "Archery - ARC01",
                 startTime: new Date("2024-07-25T09:30"),
                 endTime: new Date("2024-07-25T12:30"),
             },
             {
-                name: "Tiro com Arco - ARC02",
+                name: "Archery - ARC02",
                 startTime: new Date("2024-07-25T14:15"),
                 endTime: new Date("2024-07-25T17:15"),
             },
             {
-                name: "Tiro com Arco - ARC03",
+                name: "Archery - ARC03",
                 startTime: new Date("2024-07-28T09:30"),
                 endTime: new Date("2024-07-28T11:05"),
             },
             {
-                name: "Tiro com Arco - ARC04",
+                name: "Archery - ARC04",
                 startTime: new Date("2024-07-28T14:15"),
                 endTime: new Date("2024-07-28T17:55"),
             },
             {
-                name: "Tiro com Arco - ARC05",
+                name: "Archery - ARC05",
                 startTime: new Date("2024-07-29T09:30"),
                 endTime: new Date("2024-07-29T11:05"),
             },
             {
-                name: "Tiro com Arco - ARC06",
+                name: "Archery - ARC06",
                 startTime: new Date("2024-07-29T14:15"),
                 endTime: new Date("2024-07-29T17:55"),
             },
             {
-                name: "Tiro com Arco - ARC07",
+                name: "Archery - ARC07",
                 startTime: new Date("2024-07-30T12:00"),
                 endTime: new Date("2024-07-30T15:55"),
             },
             {
-                name: "Tiro com Arco - ARC08",
+                name: "Archery - ARC08",
                 startTime: new Date("2024-07-30T17:45"),
                 endTime: new Date("2024-07-30T20:25"),
             },
             {
-                name: "Tiro com Arco - ARC09",
+                name: "Archery - ARC09",
                 startTime: new Date("2024-07-31T12:00"),
                 endTime: new Date("2024-07-31T15:55"),
             },
             {
-                name: "Tiro com Arco - ARC10",
+                name: "Archery - ARC10",
                 startTime: new Date("2024-07-31T17:45"),
                 endTime: new Date("2024-07-31T20:25"),
             },
             {
-                name: "Tiro com Arco - ARC11",
+                name: "Archery - ARC11",
                 startTime: new Date("2024-08-01T09:30"),
                 endTime: new Date("2024-08-01T13:25"),
             },
             {
-                name: "Tiro com Arco - ARC12",
+                name: "Archery - ARC12",
                 startTime: new Date("2024-08-01T15:30"),
                 endTime: new Date("2024-08-01T19:25"),
             },
             {
-                name: "Tiro com Arco - ARC13",
+                name: "Archery - ARC13",
                 startTime: new Date("2024-08-02T09:30"),
                 endTime: new Date("2024-08-02T12:05"),
             },
             {
-                name: "Tiro com Arco - ARC14",
+                name: "Archery - ARC14",
                 startTime: new Date("2024-08-02T14:15"),
                 endTime: new Date("2024-08-02T17:25"),
             },
             {
-                name: "Tiro com Arco - ARC15",
+                name: "Archery - ARC15",
                 startTime: new Date("2024-08-03T09:30"),
                 endTime: new Date("2024-08-03T11:15"),
             },
             {
-                name: "Tiro com Arco - ARC16",
+                name: "Archery - ARC16",
                 startTime: new Date("2024-08-03T13:00"),
                 endTime: new Date("2024-08-03T15:20"),
             },
             {
-                name: "Tiro com Arco - ARC17",
+                name: "Archery - ARC17",
                 startTime: new Date("2024-08-04T09:30"),
                 endTime: new Date("2024-08-04T11:15"),
             },
             {
-                name: "Tiro com Arco - ARC18",
+                name: "Archery - ARC18",
                 startTime: new Date("2024-08-04T13:00"),
                 endTime: new Date("2024-08-04T15:20"),
             },
@@ -506,146 +506,146 @@ const categories = [
     },
     {
         id: 8,
-        name: "Boxe",
+        name: "Boxing",
         selected: false,
         sessions: [
             {
-                name: "Boxe - BOX01",
+                name: "Boxing - BOX01",
                 startTime: new Date("2024-07-27T15:30"),
                 endTime: new Date("2024-07-27T17:30"),
             },
             {
-                name: "Boxe - BOX02",
+                name: "Boxing - BOX02",
                 startTime: new Date("2024-07-27T20:00"),
                 endTime: new Date("2024-07-27T22:15"),
             },
             {
-                name: "Boxe - BOX03",
+                name: "Boxing - BOX03",
                 startTime: new Date("2024-07-28T11:00"),
                 endTime: new Date("2024-07-28T13:00"),
             },
             {
-                name: "Boxe - BOX04",
+                name: "Boxing - BOX04",
                 startTime: new Date("2024-07-28T15:30"),
                 endTime: new Date("2024-07-28T17:45"),
             },
             {
-                name: "Boxe - BOX05",
+                name: "Boxing - BOX05",
                 startTime: new Date("2024-07-28T20:00"),
                 endTime: new Date("2024-07-28T22:00"),
             },
             {
-                name: "Boxe - BOX06",
+                name: "Boxing - BOX06",
                 startTime: new Date("2024-07-29T11:00"),
                 endTime: new Date("2024-07-29T13:00"),
             },
             {
-                name: "Boxe - BOX07",
+                name: "Boxing - BOX07",
                 startTime: new Date("2024-07-29T15:30"),
                 endTime: new Date("2024-07-29T17:30"),
             },
             {
-                name: "Boxe - BOX08",
+                name: "Boxing - BOX08",
                 startTime: new Date("2024-07-29T20:00"),
                 endTime: new Date("2024-07-29T22:00"),
             },
             {
-                name: "Boxe - BOX09",
+                name: "Boxing - BOX09",
                 startTime: new Date("2024-07-30T11:00"),
                 endTime: new Date("2024-07-30T13:30"),
             },
             {
-                name: "Boxe - BOX10",
+                name: "Boxing - BOX10",
                 startTime: new Date("2024-07-30T15:30"),
                 endTime: new Date("2024-07-30T18:00"),
             },
             {
-                name: "Boxe - BOX11",
+                name: "Boxing - BOX11",
                 startTime: new Date("2024-07-30T20:00"),
                 endTime: new Date("2024-07-30T22:30"),
             },
             {
-                name: "Boxe - BOX12",
+                name: "Boxing - BOX12",
                 startTime: new Date("2024-07-31T11:00"),
                 endTime: new Date("2024-07-31T13:15"),
             },
             {
-                name: "Boxe - BOX13",
+                name: "Boxing - BOX13",
                 startTime: new Date("2024-07-31T15:30"),
                 endTime: new Date("2024-07-31T18:00"),
             },
             {
-                name: "Boxe - BOX14",
+                name: "Boxing - BOX14",
                 startTime: new Date("2024-07-31T20:00"),
                 endTime: new Date("2024-07-31T22:15"),
             },
             {
-                name: "Boxe - BOX15",
+                name: "Boxing - BOX15",
                 startTime: new Date("2024-08-01T11:00"),
                 endTime: new Date("2024-08-01T13:15"),
             },
             {
-                name: "Boxe - BOX16",
+                name: "Boxing - BOX16",
                 startTime: new Date("2024-08-01T15:30"),
                 endTime: new Date("2024-08-01T18:00"),
             },
             {
-                name: "Boxe - BOX17",
+                name: "Boxing - BOX17",
                 startTime: new Date("2024-08-01T20:00"),
                 endTime: new Date("2024-08-01T22:15"),
             },
             {
-                name: "Boxe - BOX18",
+                name: "Boxing - BOX18",
                 startTime: new Date("2024-08-02T15:30"),
                 endTime: new Date("2024-08-02T18:00"),
             },
             {
-                name: "Boxe - BOX19",
+                name: "Boxing - BOX19",
                 startTime: new Date("2024-08-02T20:00"),
                 endTime: new Date("2024-08-02T22:30"),
             },
             {
-                name: "Boxe - BOX20",
+                name: "Boxing - BOX20",
                 startTime: new Date("2024-08-03T15:30"),
                 endTime: new Date("2024-08-03T17:45"),
             },
             {
-                name: "Boxe - BOX21",
+                name: "Boxing - BOX21",
                 startTime: new Date("2024-08-03T20:00"),
                 endTime: new Date("2024-08-03T22:15"),
             },
             {
-                name: "Boxe - BOX22",
+                name: "Boxing - BOX22",
                 startTime: new Date("2024-08-04T11:00"),
                 endTime: new Date("2024-08-04T13:15"),
             },
             {
-                name: "Boxe - BOX23",
+                name: "Boxing - BOX23",
                 startTime: new Date("2024-08-04T15:30"),
                 endTime: new Date("2024-08-04T17:45"),
             },
             {
-                name: "Boxe - BOX24",
+                name: "Boxing - BOX24",
                 startTime: new Date("2024-08-06T21:30"),
                 endTime: new Date("2024-08-06T23:30"),
             },
             {
-                name: "Boxe - BOX25",
+                name: "Boxing - BOX25",
                 startTime: new Date("2024-08-07T21:30"),
                 endTime: new Date("2024-08-07T23:30"),
             },
             {
-                name: "Boxe - BOX26",
+                name: "Boxing - BOX26",
                 startTime: new Date("2024-08-08T21:30"),
                 endTime: new Date("2024-08-08T23:30"),
             },
             {
-                name: "Boxe - BOX27",
+                name: "Boxing - BOX27",
                 startTime: new Date("2024-08-09T21:30"),
                 endTime: new Date("2024-08-09T23:30"),
             },
             {
-                name: "Boxe - BOX28",
+                name: "Boxing - BOX28",
                 startTime: new Date("2024-08-10T21:30"),
                 endTime: new Date("2024-08-10T23:30"),
             }
@@ -653,51 +653,51 @@ const categories = [
     },
     {
         id: 9,
-        name: "Canoagem Slalom",
+        name: "Canoe Slalom",
         selected: false,
         sessions: [
             {
-                name: "Canoagem Slalom - CSL01",
+                name: "Canoe Slalom - CSL01",
                 startTime: new Date("2024-07-27T15:00"),
                 endTime: new Date("2024-07-27T19:10"),
             },
             {
-                name: "Canoagem Slalom - CSL02",
+                name: "Canoe Slalom - CSL02",
                 startTime: new Date("2024-07-28T15:30"),
                 endTime: new Date("2024-07-28T18:50"),
             },
             {
-                name: "Canoagem Slalom - CSL03",
+                name: "Canoe Slalom - CSL03",
                 startTime: new Date("2024-07-29T15:30"),
                 endTime: new Date("2024-07-29T18:30"),
             },
             {
-                name: "Canoagem Slalom - CSL04",
+                name: "Canoe Slalom - CSL04",
                 startTime: new Date("2024-07-30T15:00"),
                 endTime: new Date("2024-07-30T19:10"),
             },
             {
-                name: "Canoagem Slalom - CSL05",
+                name: "Canoe Slalom - CSL05",
                 startTime: new Date("2024-07-31T15:30"),
                 endTime: new Date("2024-07-31T18:30"),
             },
             {
-                name: "Canoagem Slalom - CSL06",
+                name: "Canoe Slalom - CSL06",
                 startTime: new Date("2024-08-01T15:30"),
                 endTime: new Date("2024-08-01T18:35"),
             },
             {
-                name: "Canoagem Slalom - CSL07",
+                name: "Canoe Slalom - CSL07",
                 startTime: new Date("2024-08-03T15:30"),
                 endTime: new Date("2024-08-03T18:30"),
             },
             {
-                name: "Canoagem Slalom - CSL08",
+                name: "Canoe Slalom - CSL08",
                 startTime: new Date("2024-08-04T15:30"),
                 endTime: new Date("2024-08-04T17:25"),
             },
             {
-                name: "Canoagem Slalom - CSL09",
+                name: "Canoe Slalom - CSL09",
                 startTime: new Date("2024-08-05T15:30"),
                 endTime: new Date("2024-08-05T17:30"),
             }
@@ -705,31 +705,31 @@ const categories = [
     },
     {
         id: 10,
-        name: "Canoagem Sprint",
+        name: "Canoe Sprint",
         selected: false,
         sessions: [
             {
-                name: "Canoagem Sprint - CSP01",
+                name: "Canoe Sprint - CSP01",
                 startTime: new Date("2024-08-06T09:30"),
                 endTime: new Date("2024-08-06T15:10"),
             },
             {
-                name: "Canoagem Sprint - CSP02",
+                name: "Canoe Sprint - CSP02",
                 startTime: new Date("2024-08-07T09:30"),
                 endTime: new Date("2024-08-07T14:50"),
             },
             {
-                name: "Canoagem Sprint - CSP03",
+                name: "Canoe Sprint - CSP03",
                 startTime: new Date("2024-08-08T10:30"),
                 endTime: new Date("2024-08-08T14:30"),
             },
             {
-                name: "Canoagem Sprint - CSP04",
+                name: "Canoe Sprint - CSP04",
                 startTime: new Date("2024-08-09T10:30"),
                 endTime: new Date("2024-08-09T14:20"),
             },
             {
-                name: "Canoagem Sprint - CSP05",
+                name: "Canoe Sprint - CSP05",
                 startTime: new Date("2024-08-10T09:30"),
                 endTime: new Date("2024-08-10T13:10"),
             }
@@ -737,21 +737,21 @@ const categories = [
     },
     {
         id: 11,
-        name: "Ciclismo de Estrada",
+        name: "Road cycling",
         selected: false,
         sessions: [
             {
-                name: "Ciclismo de Estrada - CRD01",
+                name: "Road cycling - CRD01",
                 startTime: new Date("2024-07-27T14:30"),
                 endTime: new Date("2024-07-27T18:30"),
             },
             {
-                name: "Ciclismo de Estrada - CRD02",
+                name: "Road cycling - CRD02",
                 startTime: new Date("2024-08-03T11:00"),
                 endTime: new Date("2024-08-03T18:15"),
             },
             {
-                name: "Ciclismo de Estrada - CRD03",
+                name: "Road cycling - CRD03",
                 startTime: new Date("2024-08-04T14:00"),
                 endTime: new Date("2024-08-04T18:45"),
             }
@@ -759,51 +759,51 @@ const categories = [
     },
     {
         id: 12,
-        name: "Ciclismo de Pista",
+        name: "Track cycling",
         selected: false,
         sessions: [
             {
-                name: "Ciclismo de Pista - CTR01",
+                name: "Track cycling - CTR01",
                 startTime: new Date("2024-08-05T17:00"),
                 endTime: new Date("2024-08-05T19:40"),
             },
             {
-                name: "Ciclismo de Pista - CTR02",
+                name: "Track cycling - CTR02",
                 startTime: new Date("2024-08-06T17:30"),
                 endTime: new Date("2024-08-06T19:55"),
             },
             {
-                name: "Ciclismo de Pista - CTR03",
+                name: "Track cycling - CTR03",
                 startTime: new Date("2024-08-07T12:45"),
                 endTime: new Date("2024-08-07T15:30"),
             },
             {
-                name: "Ciclismo de Pista - CTR04",
+                name: "Track cycling - CTR04",
                 startTime: new Date("2024-08-07T17:30"),
                 endTime: new Date("2024-08-07T19:50"),
             },
             {
-                name: "Ciclismo de Pista - CTR05",
+                name: "Track cycling - CTR05",
                 startTime: new Date("2024-08-08T17:00"),
                 endTime: new Date("2024-08-08T19:55"),
             },
             {
-                name: "Ciclismo de Pista - CTR06",
+                name: "Track cycling - CTR06",
                 startTime: new Date("2024-08-09T14:00"),
                 endTime: new Date("2024-08-09T15:45"),
             },
             {
-                name: "Ciclismo de Pista - CTR07",
+                name: "Track cycling - CTR07",
                 startTime: new Date("2024-08-09T18:00"),
                 endTime: new Date("2024-08-09T19:55"),
             },
             {
-                name: "Ciclismo de Pista - CTR08",
+                name: "Track cycling - CTR08",
                 startTime: new Date("2024-08-10T17:00"),
                 endTime: new Date("2024-08-10T19:50"),
             },
             {
-                name: "Ciclismo de Pista - CTR09",
+                name: "Track cycling - CTR09",
                 startTime: new Date("2024-08-11T11:00"),
                 endTime: new Date("2024-08-11T14:15"),
             }
@@ -811,36 +811,36 @@ const categories = [
     },
     {
         id: 13,
-        name: "Escalada Esportiva",
+        name: "Sport climbing",
         selected: false,
         sessions: [
             {
-                name: "Escalada Esportiva - CLB01",
+                name: "Sport climbing - CLB01",
                 startTime: new Date("2024-08-05T10:00"),
                 endTime: new Date("2024-08-05T14:00"),
             },
             {
-                name: "Escalada Esportiva - CLB02",
+                name: "Sport climbing - CLB02",
                 startTime: new Date("2024-08-06T10:00"),
                 endTime: new Date("2024-08-06T14:00"),
             },
             {
-                name: "Escalada Esportiva - CLB03",
+                name: "Sport climbing - CLB03",
                 startTime: new Date("2024-08-07T10:00"),
                 endTime: new Date("2024-08-07T13:15"),
             },
             {
-                name: "Escalada Esportiva - CLB04",
+                name: "Sport climbing - CLB04",
                 startTime: new Date("2024-08-08T10:00"),
                 endTime: new Date("2024-08-08T13:15"),
             },
             {
-                name: "Escalada Esportiva - CLB05",
+                name: "Sport climbing - CLB05",
                 startTime: new Date("2024-08-09T10:15"),
                 endTime: new Date("2024-08-09T13:20"),
             },
             {
-                name: "Escalada Esportiva - CLB06",
+                name: "Sport climbing - CLB06",
                 startTime: new Date("2024-08-10T10:15"),
                 endTime: new Date("2024-08-10T13:20"),
             }
@@ -848,86 +848,86 @@ const categories = [
     },
     {
         id: 14,
-        name: "Salto Ornamental",
+        name: "Diving",
         selected: false,
         sessions: [
             {
-                name: "Salto Ornamental - DIV01",
+                name: "Diving - DIV01",
                 startTime: new Date("2024-07-27T11:00"),
                 endTime: new Date("2024-07-27T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV02",
+                name: "Diving - DIV02",
                 startTime: new Date("2024-07-29T11:00"),
                 endTime: new Date("2024-07-29T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV03",
+                name: "Diving - DIV03",
                 startTime: new Date("2024-07-31T11:00"),
                 endTime: new Date("2024-07-31T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV04",
+                name: "Diving - DIV04",
                 startTime: new Date("2024-08-02T11:00"),
                 endTime: new Date("2024-08-02T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV05",
+                name: "Diving - DIV05",
                 startTime: new Date("2024-08-05T09:45"),
                 endTime: new Date("2024-08-05T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV06",
+                name: "Diving - DIV06",
                 startTime: new Date("2024-08-05T15:00"),
                 endTime: new Date("2024-08-05T17:00"),
             },
             {
-                name: "Salto Ornamental - DIV07",
+                name: "Diving - DIV07",
                 startTime: new Date("2024-08-06T10:00"),
                 endTime: new Date("2024-08-06T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV08",
+                name: "Diving - DIV08",
                 startTime: new Date("2024-08-06T15:00"),
                 endTime: new Date("2024-08-06T17:00"),
             },
             {
-                name: "Salto Ornamental - DIV09",
+                name: "Diving - DIV09",
                 startTime: new Date("2024-08-07T10:00"),
                 endTime: new Date("2024-08-07T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV10",
+                name: "Diving - DIV10",
                 startTime: new Date("2024-08-07T15:00"),
                 endTime: new Date("2024-08-07T17:00"),
             },
             {
-                name: "Salto Ornamental - DIV11",
+                name: "Diving - DIV11",
                 startTime: new Date("2024-08-08T10:00"),
                 endTime: new Date("2024-08-08T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV12",
+                name: "Diving - DIV12",
                 startTime: new Date("2024-08-08T15:00"),
                 endTime: new Date("2024-08-08T17:00"),
             },
             {
-                name: "Salto Ornamental - DIV13",
+                name: "Diving - DIV13",
                 startTime: new Date("2024-08-09T10:00"),
                 endTime: new Date("2024-08-09T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV14",
+                name: "Diving - DIV14",
                 startTime: new Date("2024-08-09T15:00"),
                 endTime: new Date("2024-08-09T17:00"),
             },
             {
-                name: "Salto Ornamental - DIV15",
+                name: "Diving - DIV15",
                 startTime: new Date("2024-08-10T10:00"),
                 endTime: new Date("2024-08-10T12:00"),
             },
             {
-                name: "Salto Ornamental - DIV16",
+                name: "Diving - DIV16",
                 startTime: new Date("2024-08-10T15:00"),
                 endTime: new Date("2024-08-10T17:00"),
             }
@@ -935,61 +935,61 @@ const categories = [
     },
     {
         id: 15,
-        name: "Hipismo",
+        name: "Equestrian",
         selected: false,
         sessions: [
             {
-                name: "Hipismo - EQU01",
+                name: "Equestrian - EQU01",
                 startTime: new Date("2024-07-27T10:00"),
                 endTime: new Date("2024-07-27T18:40"),
             },
             {
-                name: "Hipismo - EQU02",
+                name: "Equestrian - EQU02",
                 startTime: new Date("2024-07-28T10:30"),
                 endTime: new Date("2024-07-28T15:00"),
             },
             {
-                name: "Hipismo - EQU03",
+                name: "Equestrian - EQU03",
                 startTime: new Date("2024-07-29T11:00"),
                 endTime: new Date("2024-07-29T16:30"),
             },
             {
-                name: "Hipismo - EQU04",
+                name: "Equestrian - EQU04",
                 startTime: new Date("2024-07-30T11:00"),
                 endTime: new Date("2024-07-30T16:00"),
             },
             {
-                name: "Hipismo - EQU05",
+                name: "Equestrian - EQU05",
                 startTime: new Date("2024-07-31T11:00"),
                 endTime: new Date("2024-07-31T16:00"),
             },
             {
-                name: "Hipismo - EQU06",
+                name: "Equestrian - EQU06",
                 startTime: new Date("2024-08-01T10:00"),
                 endTime: new Date("2024-08-01T15:45"),
             },
             {
-                name: "Hipismo - EQU07",
+                name: "Equestrian - EQU07",
                 startTime: new Date("2024-08-02T14:00"),
                 endTime: new Date("2024-08-02T17:45"),
             },
             {
-                name: "Hipismo - EQU08",
+                name: "Equestrian - EQU08",
                 startTime: new Date("2024-08-03T10:00"),
                 endTime: new Date("2024-08-03T12:30"),
             },
             {
-                name: "Hipismo - EQU09",
+                name: "Equestrian - EQU09",
                 startTime: new Date("2024-08-04T11:00"),
                 endTime: new Date("2024-08-04T15:30"),
             },
             {
-                name: "Hipismo - EQU10",
+                name: "Equestrian - EQU10",
                 startTime: new Date("2024-08-05T11:00"),
                 endTime: new Date("2024-08-05T13:45"),
             },
             {
-                name: "Hipismo - EQU11",
+                name: "Equestrian - EQU11",
                 startTime: new Date("2024-08-06T14:00"),
                 endTime: new Date("2024-08-06T16:30"),
             }
@@ -997,2822 +997,2822 @@ const categories = [
     },
     {
         id: 16,
-        name: "Futebol",
+        name: "Football",
         selected: false,
         sessions: [
             {
-                name: "Futebol - FBL01",
+                name: "Football - FBL01",
                 startTime: new Date("2024-07-24T15:00"),
                 endTime: new Date("2024-07-24T17:00"),
             },
             {
-                name: "Futebol - FBL02",
+                name: "Football - FBL02",
                 startTime: new Date("2024-07-24T15:00"),
                 endTime: new Date("2024-07-24T17:00"),
             },
             {
-                name: "Futebol - FBL03",
+                name: "Football - FBL03",
                 startTime: new Date("2024-07-24T17:00"),
                 endTime: new Date("2024-07-24T19:00"),
             },
             {
-                name: "Futebol - FBL04",
+                name: "Football - FBL04",
                 startTime: new Date("2024-07-24T17:00"),
                 endTime: new Date("2024-07-24T19:00"),
             },
             {
-                name: "Futebol - FBL05",
+                name: "Football - FBL05",
                 startTime: new Date("2024-07-24T19:00"),
                 endTime: new Date("2024-07-24T21:00"),
             },
             {
-                name: "Futebol - FBL06",
+                name: "Football - FBL06",
                 startTime: new Date("2024-07-24T19:00"),
                 endTime: new Date("2024-07-24T21:00"),
             },
             {
-                name: "Futebol - FBL07",
+                name: "Football - FBL07",
                 startTime: new Date("2024-07-24T21:00"),
                 endTime: new Date("2024-07-24T23:00"),
             },
             {
-                name: "Futebol - FBL08",
+                name: "Football - FBL08",
                 startTime: new Date("2024-07-24T21:00"),
                 endTime: new Date("2024-07-24T23:00"),
             },
             {
-                name: "Futebol - FBL09",
+                name: "Football - FBL09",
                 startTime: new Date("2024-07-25T17:00"),
                 endTime: new Date("2024-07-25T19:00"),
             },
             {
-                name: "Futebol - FBL10",
+                name: "Football - FBL10",
                 startTime: new Date("2024-07-25T17:00"),
                 endTime: new Date("2024-07-25T19:00"),
             },
             {
-                name: "Futebol - FBL11",
+                name: "Football - FBL11",
                 startTime: new Date("2024-07-25T19:00"),
                 endTime: new Date("2024-07-25T21:00"),
             },
             {
-                name: "Futebol - FBL12",
+                name: "Football - FBL12",
                 startTime: new Date("2024-07-25T19:00"),
                 endTime: new Date("2024-07-25T21:00"),
             },
             {
-                name: "Futebol - FBL13",
+                name: "Football - FBL13",
                 startTime: new Date("2024-07-25T21:00"),
                 endTime: new Date("2024-07-25T23:00"),
             },
             {
-                name: "Futebol - FBL14",
+                name: "Football - FBL14",
                 startTime: new Date("2024-07-25T21:00"),
                 endTime: new Date("2024-07-25T23:00"),
             },
             {
-                name: "Futebol - FBL15",
+                name: "Football - FBL15",
                 startTime: new Date("2024-07-27T15:00"),
                 endTime: new Date("2024-07-27T17:00"),
             },
             {
-                name: "Futebol - FBL16",
+                name: "Football - FBL16",
                 startTime: new Date("2024-07-27T15:00"),
                 endTime: new Date("2024-07-27T17:00"),
             },
             {
-                name: "Futebol - FBL17",
+                name: "Football - FBL17",
                 startTime: new Date("2024-07-27T17:00"),
                 endTime: new Date("2024-07-27T19:00"),
             },
             {
-                name: "Futebol - FBL18",
+                name: "Football - FBL18",
                 startTime: new Date("2024-07-27T17:00"),
                 endTime: new Date("2024-07-27T19:00"),
             },
             {
-                name: "Futebol - FBL19",
+                name: "Football - FBL19",
                 startTime: new Date("2024-07-27T19:00"),
                 endTime: new Date("2024-07-27T21:00"),
             },
             {
-                name: "Futebol - FBL20",
+                name: "Football - FBL20",
                 startTime: new Date("2024-07-27T19:00"),
                 endTime: new Date("2024-07-27T21:00"),
             },
             {
-                name: "Futebol - FBL21",
+                name: "Football - FBL21",
                 startTime: new Date("2024-07-27T21:00"),
                 endTime: new Date("2024-07-27T23:00"),
             },
             {
-                name: "Futebol - FBL22",
+                name: "Football - FBL22",
                 startTime: new Date("2024-07-27T21:00"),
                 endTime: new Date("2024-07-27T23:00"),
             },
             {
-                name: "Futebol - FBL23",
+                name: "Football - FBL23",
                 startTime: new Date("2024-07-28T17:00"),
                 endTime: new Date("2024-07-28T19:00"),
             },
             {
-                name: "Futebol - FBL24",
+                name: "Football - FBL24",
                 startTime: new Date("2024-07-28T17:00"),
                 endTime: new Date("2024-07-28T19:00"),
             },
             {
-                name: "Futebol - FBL25",
+                name: "Football - FBL25",
                 startTime: new Date("2024-07-28T19:00"),
                 endTime: new Date("2024-07-28T21:00"),
             },
             {
-                name: "Futebol - FBL26",
+                name: "Football - FBL26",
                 startTime: new Date("2024-07-28T19:00"),
                 endTime: new Date("2024-07-28T21:00"),
             },
             {
-                name: "Futebol - FBL27",
+                name: "Football - FBL27",
                 startTime: new Date("2024-07-28T21:00"),
                 endTime: new Date("2024-07-28T23:00"),
             },
             {
-                name: "Futebol - FBL28",
+                name: "Football - FBL28",
                 startTime: new Date("2024-07-28T21:00"),
                 endTime: new Date("2024-07-28T23:00"),
             },
             {
-                name: "Futebol - FBL29",
+                name: "Football - FBL29",
                 startTime: new Date("2024-07-30T15:00"),
                 endTime: new Date("2024-07-30T17:00"),
             },
             {
-                name: "Futebol - FBL30",
+                name: "Football - FBL30",
                 startTime: new Date("2024-07-30T15:00"),
                 endTime: new Date("2024-07-30T17:00"),
             },
             {
-                name: "Futebol - FBL31",
+                name: "Football - FBL31",
                 startTime: new Date("2024-07-30T17:00"),
                 endTime: new Date("2024-07-30T19:00"),
             },
             {
-                name: "Futebol - FBL32",
+                name: "Football - FBL32",
                 startTime: new Date("2024-07-30T17:00"),
                 endTime: new Date("2024-07-30T19:00"),
             },
             {
-                name: "Futebol - FBL33",
+                name: "Football - FBL33",
                 startTime: new Date("2024-07-30T19:00"),
                 endTime: new Date("2024-07-30T21:00"),
             },
             {
-                name: "Futebol - FBL34",
+                name: "Football - FBL34",
                 startTime: new Date("2024-07-30T19:00"),
                 endTime: new Date("2024-07-30T21:00"),
             },
             {
-                name: "Futebol - FBL35",
+                name: "Football - FBL35",
                 startTime: new Date("2024-07-30T21:00"),
                 endTime: new Date("2024-07-30T23:00"),
             },
             {
-                name: "Futebol - FBL36",
+                name: "Football - FBL36",
                 startTime: new Date("2024-07-30T21:00"),
                 endTime: new Date("2024-07-30T23:00"),
             },
             {
-                name: "Futebol - FBL37",
+                name: "Football - FBL37",
                 startTime: new Date("2024-07-31T17:00"),
                 endTime: new Date("2024-07-31T19:00"),
             },
             {
-                name: "Futebol - FBL38",
+                name: "Football - FBL38",
                 startTime: new Date("2024-07-31T17:00"),
                 endTime: new Date("2024-07-31T19:00"),
             },
             {
-                name: "Futebol - FBL39",
+                name: "Football - FBL39",
                 startTime: new Date("2024-07-31T19:00"),
                 endTime: new Date("2024-07-31T21:00"),
             },
             {
-                name: "Futebol - FBL40",
+                name: "Football - FBL40",
                 startTime: new Date("2024-07-31T19:00"),
                 endTime: new Date("2024-07-31T21:00"),
             },
             {
-                name: "Futebol - FBL41",
+                name: "Football - FBL41",
                 startTime: new Date("2024-07-31T21:00"),
                 endTime: new Date("2024-07-31T23:00"),
             },
             {
-                name: "Futebol - FBL42",
+                name: "Football - FBL42",
                 startTime: new Date("2024-07-31T21:00"),
                 endTime: new Date("2024-07-31T23:00"),
             },
             {
-                name: "Futebol - FBL43",
+                name: "Football - FBL43",
                 startTime: new Date("2024-08-02T15:00"),
                 endTime: new Date("2024-08-02T18:00"),
             },
             {
-                name: "Futebol - FBL44",
+                name: "Football - FBL44",
                 startTime: new Date("2024-08-02T17:00"),
                 endTime: new Date("2024-08-02T20:00"),
             },
             {
-                name: "Futebol - FBL45",
+                name: "Football - FBL45",
                 startTime: new Date("2024-08-02T19:00"),
                 endTime: new Date("2024-08-02T22:00"),
             },
             {
-                name: "Futebol - FBL46",
+                name: "Football - FBL46",
                 startTime: new Date("2024-08-02T21:00"),
                 endTime: new Date("2024-08-02T23:59"),
             },
             {
-                name: "Futebol - FBL47",
+                name: "Football - FBL47",
                 startTime: new Date("2024-08-03T15:00"),
                 endTime: new Date("2024-08-03T18:00"),
             },
             {
-                name: "Futebol - FBL48",
+                name: "Football - FBL48",
                 startTime: new Date("2024-08-03T17:00"),
                 endTime: new Date("2024-08-03T20:00"),
             },
             {
-                name: "Futebol - FBL49",
+                name: "Football - FBL49",
                 startTime: new Date("2024-08-03T19:00"),
                 endTime: new Date("2024-08-03T22:00"),
             },
             {
-                name: "Futebol - FBL50",
+                name: "Football - FBL50",
                 startTime: new Date("2024-08-03T21:00"),
                 endTime: new Date("2024-08-03T23:59"),
             },
             {
-                name: "Futebol - FBL51",
+                name: "Football - FBL51",
                 startTime: new Date("2024-08-05T18:00"),
                 endTime: new Date("2024-08-05T21:00"),
             },
             {
-                name: "Futebol - FBL52",
+                name: "Football - FBL52",
                 startTime: new Date("2024-08-05T21:00"),
                 endTime: new Date("2024-08-05T23:59"),
             },
             {
-                name: "Futebol - FBL53",
+                name: "Football - FBL53",
                 startTime: new Date("2024-08-06T18:00"),
                 endTime: new Date("2024-08-06T21:00"),
             },
             {
-                name: "Futebol - FBL54",
+                name: "Football - FBL54",
                 startTime: new Date("2024-08-06T21:00"),
                 endTime: new Date("2024-08-06T23:59"),
             },
             {
-                name: "Futebol - FBL55",
+                name: "Football - FBL55",
                 startTime: new Date("2024-08-08T17:00"),
                 endTime: new Date("2024-08-08T20:00"),
             },
             {
-                name: "Futebol - FBL56",
+                name: "Football - FBL56",
                 startTime: new Date("2024-08-09T15:00"),
                 endTime: new Date("2024-08-09T18:00"),
             },
             {
-                name: "Futebol - FBL57",
+                name: "Football - FBL57",
                 startTime: new Date("2024-08-09T18:00"),
                 endTime: new Date("2024-08-09T21:30"),
             },
             {
-                name: "Futebol - FBL58",
+                name: "Football - FBL58",
                 startTime: new Date("2024-08-10T17:00"),
                 endTime: new Date("2024-08-10T20:30"),
             }]
     },
-            { 
-                id: 17,
-                name: "Polo Aquático",
-                selected: false,
-                sessions: [
-                    {
-                        name: "Polo Aquático - WPO01",
-                        startTime: new Date("2024-07-30T19:30"),
-                        endTime: new Date("2024-07-30T22:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO02",
-                        startTime: new Date("2024-07-30T15:00"),
-                        endTime: new Date("2024-07-30T18:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO03",
-                        startTime: new Date("2024-07-30T10:30"),
-                        endTime: new Date("2024-07-30T13:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO04",
-                        startTime: new Date("2024-07-29T18:30"),
-                        endTime: new Date("2024-07-29T21:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO05",
-                        startTime: new Date("2024-07-29T14:00"),
-                        endTime: new Date("2024-07-29T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO06",
-                        startTime: new Date("2024-07-28T19:30"),
-                        endTime: new Date("2024-07-28T22:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO07",
-                        startTime: new Date("2024-07-28T15:00"),
-                        endTime: new Date("2024-07-28T18:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO08",
-                        startTime: new Date("2024-07-28T10:30"),
-                        endTime: new Date("2024-07-28T13:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO09",
-                        startTime: new Date("2024-07-27T18:30"),
-                        endTime: new Date("2024-07-27T21:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO10",
-                        startTime: new Date("2024-07-27T14:00"),
-                        endTime: new Date("2024-07-27T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO11",
-                        startTime: new Date("2024-08-08T18:00"),
-                        endTime: new Date("2024-08-08T21:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO12",
-                        startTime: new Date("2024-08-08T13:00"),
-                        endTime: new Date("2024-08-08T16:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO13",
-                        startTime: new Date("2024-08-08T18:00"),
-                        endTime: new Date("2024-08-08T21:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO14",
-                        startTime: new Date("2024-08-07T19:00"),
-                        endTime: new Date("2024-08-07T22:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO15",
-                        startTime: new Date("2024-08-07T14:00"),
-                        endTime: new Date("2024-08-07T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO16",
-                        startTime: new Date("2024-08-06T19:00"),
-                        endTime: new Date("2024-08-06T22:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO17",
-                        startTime: new Date("2024-08-06T14:00"),
-                        endTime: new Date("2024-08-06T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO18",
-                        startTime: new Date("2024-08-05T18:30"),
-                        endTime: new Date("2024-08-05T23:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO19",
-                        startTime: new Date("2024-08-05T12:00"),
-                        endTime: new Date("2024-08-05T16:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO20",
-                        startTime: new Date("2024-08-04T18:30"),
-                        endTime: new Date("2024-08-04T21:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO21",
-                        startTime: new Date("2024-08-04T14:00"),
-                        endTime: new Date("2024-08-04T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO22",
-                        startTime: new Date("2024-07-30T15:00"),
-                        endTime: new Date("2024-07-30T18:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO23",
-                        startTime: new Date("2024-07-30T10:30"),
-                        endTime: new Date("2024-07-30T13:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO24",
-                        startTime: new Date("2024-07-29T18:30"),
-                        endTime: new Date("2024-07-29T21:30"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO25",
-                        startTime: new Date("2024-07-29T14:00"),
-                        endTime: new Date("2024-07-29T17:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO26",
-                        startTime: new Date("2024-08-11T14:00"),
-                        endTime: new Date("2024-08-11T15:50"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO27",
-                        startTime: new Date("2024-08-11T09:00"),
-                        endTime: new Date("2024-08-11T12:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO28",
-                        startTime: new Date("2024-08-10T14:00"),
-                        endTime: new Date("2024-08-10T21:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO29",
-                        startTime: new Date("2024-08-10T09:00"),
-                        endTime: new Date("2024-08-10T12:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO30",
-                        startTime: new Date("2024-08-09T18:00"),
-                        endTime: new Date("2024-08-09T21:00"),
-                    },
-                    {
-                        name: "Polo Aquático - WPO31",
-                        startTime: new Date("2024-08-09T13:00"),
-                        endTime: new Date("2024-08-09T16:00"),
-                    }
-                ]
-        }, 
-        {
-                id: 18,
-                name: "Halterofilismo",
-                selected: false,
-                sessions: [
-                    {
-                        "name": "Halterofilismo - WLF01",
-                        "startTime": new Date("2024-08-07T15:00"),
-                        "endTime": new Date("2024-08-07T17:30")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF01",
-                        "startTime": new Date("2024-08-07T19:30"),
-                        "endTime": new Date("2024-08-07T22:00")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF03",
-                        "startTime": new Date("2024-08-08T15:00"),
-                        "endTime": new Date("2024-08-08T17:30")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF03",
-                        "startTime": new Date("2024-08-08T19:30"),
-                        "endTime": new Date("2024-08-08T22:00")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF05",
-                        "startTime": new Date("2024-08-09T15:00"),
-                        "endTime": new Date("2024-08-09T17:30")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF05",
-                        "startTime": new Date("2024-08-09T19:30"),
-                        "endTime": new Date("2024-08-09T22:00")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF07",
-                        "startTime": new Date("2024-08-10T11:30"),
-                        "endTime": new Date("2024-08-10T14:00")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF07",
-                        "startTime": new Date("2024-08-10T16:00"),
-                        "endTime": new Date("2024-08-10T18:30")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF07",
-                        "startTime": new Date("2024-08-10T20:30"),
-                        "endTime": new Date("2024-08-10T23:00")
-                    },
-                    {
-                        "name": "Halterofilismo - WLF06",
-                        "startTime": new Date("2024-08-11T11:30"),
-                        "endTime": new Date("2024-08-11T14:00")
-                    }
-                ]
-            }, 
+    {
+        id: 17,
+        name: "Water polo",
+        selected: false,
+        sessions: [
             {
-                id: 19,
-                name: "Vôlei",
-                selected: false,
-                sessions: [
-                    {
-                        "name": "Vôlei - VVO01",
-                        "startTime": new Date("2024-07-27T09:00"),
-                        "endTime": new Date("2024-07-27T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO02",
-                        "startTime": new Date("2024-07-27T13:00"),
-                        "endTime": new Date("2024-07-27T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO03",
-                        "startTime": new Date("2024-07-27T17:00"),
-                        "endTime": new Date("2024-07-27T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO04",
-                        "startTime": new Date("2024-07-27T21:00"),
-                        "endTime": new Date("2024-07-27T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO05",
-                        "startTime": new Date("2024-07-28T09:00"),
-                        "endTime": new Date("2024-07-28T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO06",
-                        "startTime": new Date("2024-07-28T13:00"),
-                        "endTime": new Date("2024-07-28T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO07",
-                        "startTime": new Date("2024-07-28T17:00"),
-                        "endTime": new Date("2024-07-28T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO08",
-                        "startTime": new Date("2024-07-28T21:00"),
-                        "endTime": new Date("2024-07-28T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO09",
-                        "startTime": new Date("2024-07-29T09:00"),
-                        "endTime": new Date("2024-07-29T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO10",
-                        "startTime": new Date("2024-07-29T13:00"),
-                        "endTime": new Date("2024-07-29T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO11",
-                        "startTime": new Date("2024-07-29T17:00"),
-                        "endTime": new Date("2024-07-29T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO12",
-                        "startTime": new Date("2024-07-29T21:00"),
-                        "endTime": new Date("2024-07-29T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO13",
-                        "startTime": new Date("2024-07-30T09:00"),
-                        "endTime": new Date("2024-07-30T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO14",
-                        "startTime": new Date("2024-07-30T13:00"),
-                        "endTime": new Date("2024-07-30T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO15",
-                        "startTime": new Date("2024-07-30T17:00"),
-                        "endTime": new Date("2024-07-30T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO16",
-                        "startTime": new Date("2024-07-31T09:00"),
-                        "endTime": new Date("2024-07-31T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO17",
-                        "startTime": new Date("2024-07-31T13:00"),
-                        "endTime": new Date("2024-07-31T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO18",
-                        "startTime": new Date("2024-07-31T17:00"),
-                        "endTime": new Date("2024-07-31T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO19",
-                        "startTime": new Date("2024-07-31T21:00"),
-                        "endTime": new Date("2024-07-31T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO20",
-                        "startTime": new Date("2024-08-01T09:00"),
-                        "endTime": new Date("2024-08-01T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO21",
-                        "startTime": new Date("2024-08-01T13:00"),
-                        "endTime": new Date("2024-08-01T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO22",
-                        "startTime": new Date("2024-08-01T17:00"),
-                        "endTime": new Date("2024-08-01T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO23",
-                        "startTime": new Date("2024-08-01T21:00"),
-                        "endTime": new Date("2024-08-01T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO24",
-                        "startTime": new Date("2024-08-02T09:00"),
-                        "endTime": new Date("2024-08-02T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO25",
-                        "startTime": new Date("2024-08-02T13:00"),
-                        "endTime": new Date("2024-08-02T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO26",
-                        "startTime": new Date("2024-08-02T17:00"),
-                        "endTime": new Date("2024-08-02T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO27",
-                        "startTime": new Date("2024-08-02T21:00"),
-                        "endTime": new Date("2024-08-02T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO28",
-                        "startTime": new Date("2024-08-03T09:00"),
-                        "endTime": new Date("2024-08-03T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO29",
-                        "startTime": new Date("2024-08-03T13:00"),
-                        "endTime": new Date("2024-08-03T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO30",
-                        "startTime": new Date("2024-08-03T17:00"),
-                        "endTime": new Date("2024-08-03T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO31",
-                        "startTime": new Date("2024-08-04T09:00"),
-                        "endTime": new Date("2024-08-04T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO32",
-                        "startTime": new Date("2024-08-04T13:00"),
-                        "endTime": new Date("2024-08-04T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO33",
-                        "startTime": new Date("2024-08-04T17:00"),
-                        "endTime": new Date("2024-08-04T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO34",
-                        "startTime": new Date("2024-08-04T21:00"),
-                        "endTime": new Date("2024-08-04T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO35",
-                        "startTime": new Date("2024-08-05T09:00"),
-                        "endTime": new Date("2024-08-05T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO36",
-                        "startTime": new Date("2024-08-05T13:00"),
-                        "endTime": new Date("2024-08-05T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO37",
-                        "startTime": new Date("2024-08-05T17:00"),
-                        "endTime": new Date("2024-08-05T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO38",
-                        "startTime": new Date("2024-08-05T21:00"),
-                        "endTime": new Date("2024-08-05T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO39",
-                        "startTime": new Date("2024-08-06T09:00"),
-                        "endTime": new Date("2024-08-06T11:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO40",
-                        "startTime": new Date("2024-08-06T13:00"),
-                        "endTime": new Date("2024-08-06T15:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO41",
-                        "startTime": new Date("2024-08-06T17:00"),
-                        "endTime": new Date("2024-08-06T19:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO42",
-                        "startTime": new Date("2024-08-06T21:00"),
-                        "endTime": new Date("2024-08-06T23:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO43",
-                        "startTime": new Date("2024-08-07T16:00"),
-                        "endTime": new Date("2024-08-07T18:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO44",
-                        "startTime": new Date("2024-08-07T20:00"),
-                        "endTime": new Date("2024-08-07T22:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO45",
-                        "startTime": new Date("2024-08-08T16:00"),
-                        "endTime": new Date("2024-08-08T18:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO46",
-                        "startTime": new Date("2024-08-08T20:00"),
-                        "endTime": new Date("2024-08-08T22:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO47",
-                        "startTime": new Date("2024-08-09T16:00"),
-                        "endTime": new Date("2024-08-09T18:30")
-                    },
-                    {
-                        "name": "Vôlei - VVO48",
-                        "startTime": new Date("2024-08-09T20:00"),
-                        "endTime": new Date("2024-08-09T22:30")
-                    }
-                ]
-            }, 
-            {
-                id: 20,
-                name: "Vôlei de Praia",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Vôlei de Praia - VBV01",
-                        "startTime": new Date("2024-07-27T09:00"),
-                        "endTime": new Date("2024-07-27T11:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV02",
-                        "startTime": new Date("2024-07-27T13:00"),
-                        "endTime": new Date("2024-07-27T15:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV03",
-                        "startTime": new Date("2024-07-27T17:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV04",
-                        "startTime": new Date("2024-07-27T21:00"),
-                        "endTime": new Date("2024-07-27T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV05",
-                        "startTime": new Date("2024-07-28T09:00"),
-                        "endTime": new Date("2024-07-28T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV06",
-                        "startTime": new Date("2024-07-28T15:00"),
-                        "endTime": new Date("2024-07-28T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV07",
-                        "startTime": new Date("2024-07-28T20:00"),
-                        "endTime": new Date("2024-07-28T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV08",
-                        "startTime": new Date("2024-07-29T09:00"),
-                        "endTime": new Date("2024-07-29T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV09",
-                        "startTime": new Date("2024-07-29T15:00"),
-                        "endTime": new Date("2024-07-29T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV10",
-                        "startTime": new Date("2024-07-29T20:00"),
-                        "endTime": new Date("2024-07-29T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV11",
-                        "startTime": new Date("2024-07-30T09:00"),
-                        "endTime": new Date("2024-07-30T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV12",
-                        "startTime": new Date("2024-07-30T15:00"),
-                        "endTime": new Date("2024-07-30T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV13",
-                        "startTime": new Date("2024-07-30T20:00"),
-                        "endTime": new Date("2024-07-30T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV14",
-                        "startTime": new Date("2024-07-31T09:00"),
-                        "endTime": new Date("2024-07-31T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV15",
-                        "startTime": new Date("2024-07-31T15:00"),
-                        "endTime": new Date("2024-07-31T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV16",
-                        "startTime": new Date("2024-07-31T20:00"),
-                        "endTime": new Date("2024-07-31T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV17",
-                        "startTime": new Date("2024-08-01T09:00"),
-                        "endTime": new Date("2024-08-01T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV18",
-                        "startTime": new Date("2024-08-01T15:00"),
-                        "endTime": new Date("2024-08-01T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV19",
-                        "startTime": new Date("2024-08-01T20:00"),
-                        "endTime": new Date("2024-08-01T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV20",
-                        "startTime": new Date("2024-08-02T09:00"),
-                        "endTime": new Date("2024-08-02T13:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV21",
-                        "startTime": new Date("2024-08-02T15:00"),
-                        "endTime": new Date("2024-08-02T18:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV22",
-                        "startTime": new Date("2024-08-02T20:00"),
-                        "endTime": new Date("2024-08-02T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV23",
-                        "startTime": new Date("2024-08-03T09:00"),
-                        "endTime": new Date("2024-08-03T11:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV24",
-                        "startTime": new Date("2024-08-03T13:00"),
-                        "endTime": new Date("2024-08-03T15:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV25",
-                        "startTime": new Date("2024-08-03T17:00"),
-                        "endTime": new Date("2024-08-03T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV26",
-                        "startTime": new Date("2024-08-03T21:00"),
-                        "endTime": new Date("2024-08-03T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV27",
-                        "startTime": new Date("2024-08-04T09:00"),
-                        "endTime": new Date("2024-08-04T11:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV28",
-                        "startTime": new Date("2024-08-04T13:00"),
-                        "endTime": new Date("2024-08-04T15:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV29",
-                        "startTime": new Date("2024-08-04T17:00"),
-                        "endTime": new Date("2024-08-04T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV30",
-                        "startTime": new Date("2024-08-04T21:00"),
-                        "endTime": new Date("2024-08-04T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV31",
-                        "startTime": new Date("2024-08-05T09:00"),
-                        "endTime": new Date("2024-08-05T11:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV32",
-                        "startTime": new Date("2024-08-05T13:00"),
-                        "endTime": new Date("2024-08-05T15:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV33",
-                        "startTime": new Date("2024-08-05T17:00"),
-                        "endTime": new Date("2024-08-05T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV34",
-                        "startTime": new Date("2024-08-05T21:00"),
-                        "endTime": new Date("2024-08-05T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV35",
-                        "startTime": new Date("2024-08-06T17:00"),
-                        "endTime": new Date("2024-08-06T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV36",
-                        "startTime": new Date("2024-08-06T21:00"),
-                        "endTime": new Date("2024-08-06T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV37",
-                        "startTime": new Date("2024-08-06T20:00"),
-                        "endTime": new Date("2024-08-06T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV38",
-                        "startTime": new Date("2024-08-07T17:00"),
-                        "endTime": new Date("2024-08-07T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV39",
-                        "startTime": new Date("2024-08-07T21:00"),
-                        "endTime": new Date("2024-08-07T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV40",
-                        "startTime": new Date("2024-08-08T17:00"),
-                        "endTime": new Date("2024-08-08T19:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV41",
-                        "startTime": new Date("2024-08-08T21:00"),
-                        "endTime": new Date("2024-08-08T23:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV42",
-                        "startTime": new Date("2024-08-09T21:00"),
-                        "endTime": new Date("2024-08-10T00:00")
-                    },
-                    {
-                        "name": "Vôlei de Praia - VBV43",
-                        "startTime": new Date("2024-08-10T21:00"),
-                        "endTime": new Date("2024-08-11T00:00")
-                    }
-                ]
-            }, 
-            {
-                id: 21,
-                name: "Tênis de Mesa",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Tênis de Mesa - TTE01",
-                        "startTime": new Date("2024-07-27T15:00"),
-                        "endTime": new Date("2024-07-27T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE02",
-                        "startTime": new Date("2024-07-27T20:00"),
-                        "endTime": new Date("2024-07-27T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE03",
-                        "startTime": new Date("2024-07-28T10:00"),
-                        "endTime": new Date("2024-07-28T14:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE04",
-                        "startTime": new Date("2024-07-28T16:00"),
-                        "endTime": new Date("2024-07-28T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE05",
-                        "startTime": new Date("2024-07-28T20:00"),
-                        "endTime": new Date("2024-07-28T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE06",
-                        "startTime": new Date("2024-07-29T10:00"),
-                        "endTime": new Date("2024-07-29T14:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE07",
-                        "startTime": new Date("2024-07-29T16:00"),
-                        "endTime": new Date("2024-07-29T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE08",
-                        "startTime": new Date("2024-07-29T20:00"),
-                        "endTime": new Date("2024-07-29T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE09",
-                        "startTime": new Date("2024-07-30T10:00"),
-                        "endTime": new Date("2024-07-30T12:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE10",
-                        "startTime": new Date("2024-07-30T13:30"),
-                        "endTime": new Date("2024-07-30T16:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE11",
-                        "startTime": new Date("2024-07-30T13:30"),
-                        "endTime": new Date("2024-07-30T16:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE12",
-                        "startTime": new Date("2024-07-31T10:00"),
-                        "endTime": new Date("2024-07-31T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE13",
-                        "startTime": new Date("2024-07-31T15:00"),
-                        "endTime": new Date("2024-07-31T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE14",
-                        "startTime": new Date("2024-07-31T20:00"),
-                        "endTime": new Date("2024-07-31T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE15",
-                        "startTime": new Date("2024-08-01T10:00"),
-                        "endTime": new Date("2024-08-01T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE16",
-                        "startTime": new Date("2024-08-01T10:00"),
-                        "endTime": new Date("2024-08-01T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE17",
-                        "startTime": new Date("2024-08-01T15:00"),
-                        "endTime": new Date("2024-08-01T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE18",
-                        "startTime": new Date("2024-08-01T15:00"),
-                        "endTime": new Date("2024-08-01T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE19",
-                        "startTime": new Date("2024-08-02T10:00"),
-                        "endTime": new Date("2024-08-02T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE20",
-                        "startTime": new Date("2024-08-02T10:00"),
-                        "endTime": new Date("2024-08-02T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE21",
-                        "startTime": new Date("2024-08-02T15:00"),
-                        "endTime": new Date("2024-08-02T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE22",
-                        "startTime": new Date("2024-08-02T15:00"),
-                        "endTime": new Date("2024-08-02T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE23",
-                        "startTime": new Date("2024-08-03T13:30"),
-                        "endTime": new Date("2024-08-03T16:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE24",
-                        "startTime": new Date("2024-08-04T13:30"),
-                        "endTime": new Date("2024-08-04T16:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE25",
-                        "startTime": new Date("2024-08-04T13:30"),
-                        "endTime": new Date("2024-08-04T16:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE26",
-                        "startTime": new Date("2024-08-05T10:00"),
-                        "endTime": new Date("2024-08-05T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE27",
-                        "startTime": new Date("2024-08-05T15:00"),
-                        "endTime": new Date("2024-08-05T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE28",
-                        "startTime": new Date("2024-08-05T20:00"),
-                        "endTime": new Date("2024-08-05T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE29",
-                        "startTime": new Date("2024-08-06T10:00"),
-                        "endTime": new Date("2024-08-06T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE30",
-                        "startTime": new Date("2024-08-06T15:00"),
-                        "endTime": new Date("2024-08-06T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE31",
-                        "startTime": new Date("2024-08-06T20:00"),
-                        "endTime": new Date("2024-08-06T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE32",
-                        "startTime": new Date("2024-08-07T10:00"),
-                        "endTime": new Date("2024-08-07T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE33",
-                        "startTime": new Date("2024-08-07T15:00"),
-                        "endTime": new Date("2024-08-07T18:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE34",
-                        "startTime": new Date("2024-08-07T20:00"),
-                        "endTime": new Date("2024-08-07T23:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE35",
-                        "startTime": new Date("2024-08-08T10:00"),
-                        "endTime": new Date("2024-08-08T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE36",
-                        "startTime": new Date("2024-08-08T15:00"),
-                        "endTime": new Date("2024-08-08T18:30")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE37",
-                        "startTime": new Date("2024-08-08T15:00"),
-                        "endTime": new Date("2024-08-08T18:30")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE38",
-                        "startTime": new Date("2024-08-09T10:00"),
-                        "endTime": new Date("2024-08-09T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE39",
-                        "startTime": new Date("2024-08-09T15:00"),
-                        "endTime": new Date("2024-08-09T18:30")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE40",
-                        "startTime": new Date("2024-08-09T15:00"),
-                        "endTime": new Date("2024-08-09T18:30")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE41",
-                        "startTime": new Date("2024-08-09T15:00"),
-                        "endTime": new Date("2024-08-09T18:30")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE42",
-                        "startTime": new Date("2024-08-10T10:00"),
-                        "endTime": new Date("2024-08-10T13:00")
-                    },
-                    {
-                        "name": "Tênis de Mesa - TTE43",
-                        "startTime": new Date("2024-08-10T15:00"),
-                        "endTime": new Date("2024-08-10T18:30")
-                    }
-                ]
-            }, 
-            {
-                id: 22,
-                name: "Triatlo",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Triatlo - TRI01",
-                        "startTime": new Date("2024-07-30T08:00"),
-                        "endTime": new Date("2024-07-30T10:30")
-                    },
-                    {
-                        "name": "Triatlo - TRI02",
-                        "startTime": new Date("2024-07-31T08:00"),
-                        "endTime": new Date("2024-07-31T10:40")
-                    },
-                    {
-                        "name": "Triatlo - TRI03",
-                        "startTime": new Date("2024-08-05T08:00"),
-                        "endTime": new Date("2024-08-05T10:10")
-                    }
-                ]
-            }, 
-            {
-                id: 23,
-                name: "Taekwondo",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Taekwondo - TKW01",
-                        "startTime": new Date("2024-08-07T09:00"),
-                        "endTime": new Date("2024-08-07T12:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW02",
-                        "startTime": new Date("2024-08-07T14:30"),
-                        "endTime": new Date("2024-08-07T17:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW03",
-                        "startTime": new Date("2024-08-07T19:30"),
-                        "endTime": new Date("2024-08-07T23:00")
-                    },
-                    {
-                        "name": "Taekwondo - TKW04",
-                        "startTime": new Date("2024-08-08T09:00"),
-                        "endTime": new Date("2024-08-08T12:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW05",
-                        "startTime": new Date("2024-08-08T14:30"),
-                        "endTime": new Date("2024-08-08T17:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW06",
-                        "startTime": new Date("2024-08-08T19:30"),
-                        "endTime": new Date("2024-08-08T23:00")
-                    },
-                    {
-                        "name": "Taekwondo - TKW07",
-                        "startTime": new Date("2024-08-09T09:00"),
-                        "endTime": new Date("2024-08-09T12:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW08",
-                        "startTime": new Date("2024-08-09T14:30"),
-                        "endTime": new Date("2024-08-09T17:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW09",
-                        "startTime": new Date("2024-08-09T19:30"),
-                        "endTime": new Date("2024-08-09T23:00")
-                    },
-                    {
-                        "name": "Taekwondo - TKW10",
-                        "startTime": new Date("2024-08-10T09:00"),
-                        "endTime": new Date("2024-08-10T12:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW11",
-                        "startTime": new Date("2024-08-10T14:30"),
-                        "endTime": new Date("2024-08-10T17:30")
-                    },
-                    {
-                        "name": "Taekwondo - TKW12",
-                        "startTime": new Date("2024-08-10T19:30"),
-                        "endTime": new Date("2024-08-10T23:00")
-                    }
-                ]
-            }, 
-            {
-                id: 24,
-                name: "Tênis",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Tênis - TEN01",
-                        "startTime": new Date("2024-07-27T12:00"),
-                        "endTime": new Date("2024-07-27T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN02",
-                        "startTime": new Date("2024-07-27T12:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN03",
-                        "startTime": new Date("2024-07-27T12:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN04",
-                        "startTime": new Date("2024-07-27T12:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN05",
-                        "startTime": new Date("2024-07-27T19:00"),
-                        "endTime": new Date("2024-07-27T23:00")
-                    },
-                    {
-                        "name": "Tênis - TEN06",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN07",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN08",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN09",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN10",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN11",
-                        "startTime": new Date("2024-07-29T19:00"),
-                        "endTime": new Date("2024-07-29T23:00")
-                    },
-                    {
-                        "name": "Tênis - TEN12",
-                        "startTime": new Date("2024-07-29T12:00"),
-                        "endTime": new Date("2024-07-29T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN13",
-                        "startTime": new Date("2024-07-29T12:00"),
-                        "endTime": new Date("2024-07-29T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN14",
-                        "startTime": new Date("2024-07-29T12:00"),
-                        "endTime": new Date("2024-07-29T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN15",
-                        "startTime": new Date("2024-07-29T19:00"),
-                        "endTime": new Date("2024-07-29T23:00")
-                    },
-                    {
-                        "name": "Tênis - TEN16",
-                        "startTime": new Date("2024-07-30T12:00"),
-                        "endTime": new Date("2024-07-30T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN17",
-                        "startTime": new Date("2024-07-30T12:00"),
-                        "endTime": new Date("2024-07-30T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN18",
-                        "startTime": new Date("2024-07-30T12:00"),
-                        "endTime": new Date("2024-07-30T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN19",
-                        "startTime": new Date("2024-07-30T19:00"),
-                        "endTime": new Date("2024-07-30T23:00")
-                    },
-                    {
-                        "name": "Tênis - TEN20",
-                        "startTime": new Date("2024-07-30T12:00"),
-                        "endTime": new Date("2024-07-30T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN21",
-                        "startTime": new Date("2024-07-31T12:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN22",
-                        "startTime": new Date("2024-07-31T12:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN23",
-                        "startTime": new Date("2024-07-31T12:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN24",
-                        "startTime": new Date("2024-07-31T12:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN25",
-                        "startTime": new Date("2024-07-31T12:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN26",
-                        "startTime": new Date("2024-08-01T12:00"),
-                        "endTime": new Date("2024-08-01T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN27",
-                        "startTime": new Date("2024-08-01T19:00"),
-                        "endTime": new Date("2024-08-01T23:00")
-                    },
-                    {
-                        "name": "Tênis - TEN28",
-                        "startTime": new Date("2024-08-01T12:00"),
-                        "endTime": new Date("2024-08-01T17:00")
-                    },
-                    {
-                        "name": "Tênis - TEN29",
-                        "startTime": new Date("2024-08-01T12:00"),
-                        "endTime": new Date("2024-08-01T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN30",
-                        "startTime": new Date("2024-08-02T12:00"),
-                        "endTime": new Date("2024-08-02T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN31",
-                        "startTime": new Date("2024-08-02T12:00"),
-                        "endTime": new Date("2024-08-02T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN32",
-                        "startTime": new Date("2024-08-02T12:00"),
-                        "endTime": new Date("2024-08-02T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN33",
-                        "startTime": new Date("2024-08-03T12:00"),
-                        "endTime": new Date("2024-08-03T19:00")
-                    },
-                    {
-                        "name": "Tênis - TEN34",
-                        "startTime": new Date("2024-08-04T12:00"),
-                        "endTime": new Date("2024-08-04T19:00")
-                    }
-                ]
-            }, 
-            {
-                id: 25,
-                name: "Natação",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Natação - SWM01",
-                        "startTime": new Date("2024-07-27T11:00"),
-                        "endTime": new Date("2024-07-27T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM02",
-                        "startTime": new Date("2024-07-27T20:30"),
-                        "endTime": new Date("2024-07-27T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM03",
-                        "startTime": new Date("2024-07-28T11:00"),
-                        "endTime": new Date("2024-07-28T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM04",
-                        "startTime": new Date("2024-07-28T20:30"),
-                        "endTime": new Date("2024-07-28T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM05",
-                        "startTime": new Date("2024-07-29T11:00"),
-                        "endTime": new Date("2024-07-29T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM06",
-                        "startTime": new Date("2024-07-29T20:30"),
-                        "endTime": new Date("2024-07-29T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM07",
-                        "startTime": new Date("2024-07-30T11:00"),
-                        "endTime": new Date("2024-07-30T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM08",
-                        "startTime": new Date("2024-07-30T20:30"),
-                        "endTime": new Date("2024-07-30T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM09",
-                        "startTime": new Date("2024-07-31T11:00"),
-                        "endTime": new Date("2024-07-31T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM10",
-                        "startTime": new Date("2024-07-31T20:30"),
-                        "endTime": new Date("2024-07-31T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM11",
-                        "startTime": new Date("2024-08-01T11:00"),
-                        "endTime": new Date("2024-08-01T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM12",
-                        "startTime": new Date("2024-08-01T20:30"),
-                        "endTime": new Date("2024-08-01T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM13",
-                        "startTime": new Date("2024-08-02T11:00"),
-                        "endTime": new Date("2024-08-02T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM14",
-                        "startTime": new Date("2024-08-02T20:30"),
-                        "endTime": new Date("2024-08-02T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM15",
-                        "startTime": new Date("2024-08-03T11:00"),
-                        "endTime": new Date("2024-08-03T13:00")
-                    },
-                    {
-                        "name": "Natação - SWM16",
-                        "startTime": new Date("2024-08-03T20:30"),
-                        "endTime": new Date("2024-08-03T22:30")
-                    },
-                    {
-                        "name": "Natação - SWM17",
-                        "startTime": new Date("2024-08-04T18:30"),
-                        "endTime": new Date("2024-08-04T20:30")
-                    }
-                ]
-            }, 
-            {
-                id: 26,
-                name: "Nado Artístico",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Nado artístico - SWA01",
-                        "startTime": new Date("2024-08-05T19:30"),
-                        "endTime": new Date("2024-08-05T21:00")
-                    },
-                    {
-                        "name": "Nado artístico - SWA02",
-                        "startTime": new Date("2024-08-06T19:30"),
-                        "endTime": new Date("2024-08-06T21:00")
-                    },
-                    {
-                        "name": "Nado artístico - SWA03",
-                        "startTime": new Date("2024-08-07T19:30"),
-                        "endTime": new Date("2024-08-07T21:15")
-                    },
-                    {
-                        "name": "Nado artístico - SWA04",
-                        "startTime": new Date("2024-08-09T19:30"),
-                        "endTime": new Date("2024-08-09T21:30")
-                    },
-                    {
-                        "name": "Nado artístico - SWA05",
-                        "startTime": new Date("2024-08-10T19:30"),
-                        "endTime": new Date("2024-08-10T22:00")
-                    }
-                ]
-            }, 
-            {
-                id: 27,
-                name: "Surf",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Surf - SRF01",
-                        "startTime": new Date("2024-07-27T07:00"),
-                        "endTime": new Date("2024-07-27T16:30")
-                    },
-                    {
-                        "name": "Surf - SRF02",
-                        "startTime": new Date("2024-07-28T07:00"),
-                        "endTime": new Date("2024-07-28T16:30")
-                    },
-                    {
-                        "name": "Surf - SRF03",
-                        "startTime": new Date("2024-07-29T07:00"),
-                        "endTime": new Date("2024-07-29T16:30")
-                    },
-                    {
-                        "name": "Surf - SRF04",
-                        "startTime": new Date("2024-07-30T07:00"),
-                        "endTime": new Date("2024-07-30T16:50")
-                    }
-                ]
-            }, 
-            {
-                id: 28,
-                name: "Skate",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Skate - SKB01",
-                        "startTime": new Date("2024-07-27T12:00"),
-                        "endTime": new Date("2024-07-27T15:30")
-                    },
-                    {
-                        "name": "Skate - SKB02",
-                        "startTime": new Date("2024-07-27T17:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Skate - SKB03",
-                        "startTime": new Date("2024-07-28T12:00"),
-                        "endTime": new Date("2024-07-28T15:30")
-                    },
-                    {
-                        "name": "Skate - SKB04",
-                        "startTime": new Date("2024-07-28T17:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Skate - SKB05",
-                        "startTime": new Date("2024-08-06T12:30"),
-                        "endTime": new Date("2024-08-06T16:00")
-                    },
-                    {
-                        "name": "Skate - SKB06",
-                        "startTime": new Date("2024-08-06T17:30"),
-                        "endTime": new Date("2024-08-06T19:00")
-                    },
-                    {
-                        "name": "Skate - SKB07",
-                        "startTime": new Date("2024-08-07T12:30"),
-                        "endTime": new Date("2024-08-07T16:00")
-                    },
-                    {
-                        "name": "Skate - SKB08",
-                        "startTime": new Date("2024-08-07T17:30"),
-                        "endTime": new Date("2024-08-07T19:00")
-                    }
-                ]
-            }, 
-            {
-                id: 29,
-                name: "Shooting",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Shooting - SHO01",
-                        "startTime": new Date("2024-07-27T09:00"),
-                        "endTime": new Date("2024-07-27T13:45")
-                    },
-                    {
-                        "name": "Shooting - SHO02",
-                        "startTime": new Date("2024-07-27T10:30"),
-                        "endTime": new Date("2024-07-27T11:50")
-                    },
-                    {
-                        "name": "Shooting - SHO03",
-                        "startTime": new Date("2024-07-28T09:15"),
-                        "endTime": new Date("2024-07-28T12:30")
-                    },
-                    {
-                        "name": "Shooting - SHO04",
-                        "startTime": new Date("2024-07-28T09:30"),
-                        "endTime": new Date("2024-07-28T13:05")
-                    },
-                    {
-                        "name": "Shooting - SHO05",
-                        "startTime": new Date("2024-07-29T09:15"),
-                        "endTime": new Date("2024-07-29T13:05")
-                    },
-                    {
-                        "name": "Shooting - SHO06",
-                        "startTime": new Date("2024-07-29T09:00"),
-                        "endTime": new Date("2024-07-29T17:05")
-                    },
-                    {
-                        "name": "Shooting - SHO07",
-                        "startTime": new Date("2024-07-30T09:30"),
-                        "endTime": new Date("2024-07-30T10:50")
-                    },
-                    {
-                        "name": "Shooting - SHO08",
-                        "startTime": new Date("2024-07-30T09:30"),
-                        "endTime": new Date("2024-07-30T10:50")
-                    },
-                    {
-                        "name": "Shooting - SHO09",
-                        "startTime": new Date("2024-07-31T09:00"),
-                        "endTime": new Date("2024-07-31T10:30")
-                    },
-                    {
-                        "name": "Shooting - SHO10",
-                        "startTime": new Date("2024-07-31T09:00"),
-                        "endTime": new Date("2024-07-31T17:05")
-                    },
-                    {
-                        "name": "Shooting - SHO11",
-                        "startTime": new Date("2024-08-01T09:30"),
-                        "endTime": new Date("2024-08-01T10:50")
-                    },
-                    {
-                        "name": "Shooting - SHO12",
-                        "startTime": new Date("2024-08-01T12:00"),
-                        "endTime": new Date("2024-08-01T13:30")
-                    },
-                    {
-                        "name": "Shooting - SHO13",
-                        "startTime": new Date("2024-08-02T09:00"),
-                        "endTime": new Date("2024-08-02T14:30")
-                    },
-                    {
-                        "name": "Shooting - SHO14",
-                        "startTime": new Date("2024-08-02T09:00"),
-                        "endTime": new Date("2024-08-02T14:00")
-                    },
-                    {
-                        "name": "Shooting - SHO15",
-                        "startTime": new Date("2024-08-02T09:30"),
-                        "endTime": new Date("2024-08-02T10:50")
-                    },
-                    {
-                        "name": "Shooting - SHO16",
-                        "startTime": new Date("2024-08-03T09:00"),
-                        "endTime": new Date("2024-08-03T17:05")
-                    },
-                    {
-                        "name": "Shooting - SHO17",
-                        "startTime": new Date("2024-08-03T09:30"),
-                        "endTime": new Date("2024-08-03T10:50")
-                    },
-                    {
-                        "name": "Shooting - SHO18",
-                        "startTime": new Date("2024-08-04T09:00"),
-                        "endTime": new Date("2024-08-04T17:00")
-                    },
-                    {
-                        "name": "Shooting - SHO19",
-                        "startTime": new Date("2024-08-04T09:30"),
-                        "endTime": new Date("2024-08-04T17:05")
-                    },
-                    {
-                        "name": "Shooting - SHO20",
-                        "startTime": new Date("2024-08-05T09:00"),
-                        "endTime": new Date("2024-08-05T16:35")
-                    },
-                    {
-                        "name": "Shooting - SHO21",
-                        "startTime": new Date("2024-08-05T09:30"),
-                        "endTime": new Date("2024-08-05T10:50")
-                    }
-                ]
-            }, 
-            {
-                id: 30,
-                name: "Vela",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Vela - SAL01",
-                        "startTime": new Date("2024-07-28T11:00"),
-                        "endTime": new Date("2024-07-28T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL02",
-                        "startTime": new Date("2024-07-29T11:00"),
-                        "endTime": new Date("2024-07-29T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL03",
-                        "startTime": new Date("2024-07-30T11:00"),
-                        "endTime": new Date("2024-07-30T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL04",
-                        "startTime": new Date("2024-07-31T11:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL05",
-                        "startTime": new Date("2024-08-01T11:00"),
-                        "endTime": new Date("2024-08-01T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL06",
-                        "startTime": new Date("2024-08-02T11:00"),
-                        "endTime": new Date("2024-08-02T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL07",
-                        "startTime": new Date("2024-08-03T11:00"),
-                        "endTime": new Date("2024-08-03T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL08",
-                        "startTime": new Date("2024-08-04T11:00"),
-                        "endTime": new Date("2024-08-04T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL09",
-                        "startTime": new Date("2024-08-05T11:00"),
-                        "endTime": new Date("2024-08-05T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL10",
-                        "startTime": new Date("2024-08-06T11:00"),
-                        "endTime": new Date("2024-08-06T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL11",
-                        "startTime": new Date("2024-08-07T11:00"),
-                        "endTime": new Date("2024-08-07T19:00")
-                    },
-                    {
-                        "name": "Vela - SAL12",
-                        "startTime": new Date("2024-08-08T11:00"),
-                        "endTime": new Date("2024-08-08T19:00")
-                    }
-                ]
-            }, 
-            {
-                id: 31,
-                name: "Rugby",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Rugby - RUG01",
-                        "startTime": new Date("2024-07-24T14:00"),
-                        "endTime": new Date("2024-07-24T17:00")
-                    },
-                    {
-                        "name": "Rugby - RUG02",
-                        "startTime": new Date("2024-07-25T14:00"),
-                        "endTime": new Date("2024-07-25T17:00")
-                    },
-                    {
-                        "name": "Rugby - RUG03",
-                        "startTime": new Date("2024-07-25T14:30"),
-                        "endTime": new Date("2024-07-25T20:45")
-                    },
-                    {
-                        "name": "Rugby - RUG04",
-                        "startTime": new Date("2024-07-27T14:00"),
-                        "endTime": new Date("2024-07-27T17:00")
-                    },
-                    {
-                        "name": "Rugby - RUG05",
-                        "startTime": new Date("2024-07-28T20:00"),
-                        "endTime": new Date("2024-07-28T23:00")
-                    },
-                    {
-                        "name": "Rugby - RUG06",
-                        "startTime": new Date("2024-07-29T20:00"),
-                        "endTime": new Date("2024-07-29T23:00")
-                    },
-                    {
-                        "name": "Rugby - RUG07",
-                        "startTime": new Date("2024-07-29T15:30"),
-                        "endTime": new Date("2024-07-29T22:00")
-                    },
-                    {
-                        "name": "Rugby - RUG08",
-                        "startTime": new Date("2024-07-30T15:30"),
-                        "endTime": new Date("2024-07-30T22:00")
-                    }
-                ]
-            }, 
-            {
-                id: 32,
-                name: "Remo",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Remo - ROW01",
-                        "startTime": new Date("2024-07-28T09:00"),
-                        "endTime": new Date("2024-07-28T13:10")
-                    },
-                    {
-                        "name": "Remo - ROW02",
-                        "startTime": new Date("2024-07-29T09:00"),
-                        "endTime": new Date("2024-07-29T13:10")
-                    },
-                    {
-                        "name": "Remo - ROW03",
-                        "startTime": new Date("2024-07-30T09:30"),
-                        "endTime": new Date("2024-07-30T12:20")
-                    },
-                    {
-                        "name": "Remo - ROW04",
-                        "startTime": new Date("2024-07-31T09:30"),
-                        "endTime": new Date("2024-07-31T11:50")
-                    },
-                    {
-                        "name": "Remo - ROW05",
-                        "startTime": new Date("2024-08-01T09:30"),
-                        "endTime": new Date("2024-08-01T11:50")
-                    },
-                    {
-                        "name": "Remo - ROW06",
-                        "startTime": new Date("2024-08-01T09:30"),
-                        "endTime": new Date("2024-08-01T12:40")
-                    },
-                    {
-                        "name": "Remo - ROW07",
-                        "startTime": new Date("2024-08-02T09:30"),
-                        "endTime": new Date("2024-08-02T12:50")
-                    },
-                    {
-                        "name": "Remo - ROW08",
-                        "startTime": new Date("2024-08-03T09:30"),
-                        "endTime": new Date("2024-08-03T11:40")
-                    }
-                ]
-            }, 
-            {
-                id: 33,
-                name: "Maratona Aquática",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Marathon Swimming - OWS01",
-                        "startTime": new Date("2024-08-13T07:30"),
-                        "endTime": new Date("2024-08-13T10:30")
-                    },
-                    {
-                        "name": "Marathon Swimming - OWS02",
-                        "startTime": new Date("2024-08-14T07:30"),
-                        "endTime": new Date("2024-08-14T10:30")
-                    }
-                ]
-            }, 
-            {
-                id: 34,
-                name: "Mountain Bike",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Mountain Bike - MTB01",
-                        "startTime": new Date("2024-07-28T14:00"),
-                        "endTime": new Date("2024-07-28T16:30")
-                    },
-                    {
-                        "name": "Mountain Bike - MTB01",
-                        "startTime": new Date("2024-07-29T14:00"),
-                        "endTime": new Date("2024-07-29T16:30")
-                    }
-                ]
-            }, 
-            {
-                id: 35,
-                name: "Pentatlo Moderno",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Pentatlo Moderno - MPN01",
-                        "startTime": new Date("2024-08-08T11:00"),
-                        "endTime": new Date("2024-08-08T17:30")
-                    },
-                    {
-                        "name": "Pentatlo Moderno - MPN02",
-                        "startTime": new Date("2024-08-09T13:00"),
-                        "endTime": new Date("2024-08-09T19:00")
-                    },
-                    {
-                        "name": "Pentatlo Moderno - MPN03",
-                        "startTime": new Date("2024-08-10T09:30"),
-                        "endTime": new Date("2024-08-10T15:30")
-                    },
-                    {
-                        "name": "Pentatlo Moderno - MPN04",
-                        "startTime": new Date("2024-08-10T17:00"),
-                        "endTime": new Date("2024-08-10T19:30")
-                    },
-                    {
-                        "name": "Pentatlo Moderno - MPN05",
-                        "startTime": new Date("2024-08-11T11:00"),
-                        "endTime": new Date("2024-08-11T13:30")
-                    }
-                ]
-            }, 
-            {
-                id: 36,
-                name: "Judo",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Judo - JUD01",
-                        "startTime": new Date("2024-07-27T10:00"),
-                        "endTime": new Date("2024-07-27T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD02",
-                        "startTime": new Date("2024-07-27T16:00"),
-                        "endTime": new Date("2024-07-27T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD03",
-                        "startTime": new Date("2024-07-26T10:00"),
-                        "endTime": new Date("2024-07-26T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD04",
-                        "startTime": new Date("2024-07-26T16:00"),
-                        "endTime": new Date("2024-07-26T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD05",
-                        "startTime": new Date("2024-07-29T10:00"),
-                        "endTime": new Date("2024-07-29T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD06",
-                        "startTime": new Date("2024-07-29T16:00"),
-                        "endTime": new Date("2024-07-29T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD07",
-                        "startTime": new Date("2024-07-30T10:00"),
-                        "endTime": new Date("2024-07-30T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD08",
-                        "startTime": new Date("2024-07-30T16:00"),
-                        "endTime": new Date("2024-07-30T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD09",
-                        "startTime": new Date("2024-07-31T10:00"),
-                        "endTime": new Date("2024-07-31T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD10",
-                        "startTime": new Date("2024-07-31T16:00"),
-                        "endTime": new Date("2024-07-31T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD11",
-                        "startTime": new Date("2024-08-01T10:00"),
-                        "endTime": new Date("2024-08-01T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD12",
-                        "startTime": new Date("2024-08-01T16:00"),
-                        "endTime": new Date("2024-08-01T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD13",
-                        "startTime": new Date("2024-08-02T10:00"),
-                        "endTime": new Date("2024-08-02T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD14",
-                        "startTime": new Date("2024-08-02T16:00"),
-                        "endTime": new Date("2024-08-02T19:00")
-                    },
-                    {
-                        "name": "Judo - JUD15",
-                        "startTime": new Date("2024-08-03T08:00"),
-                        "endTime": new Date("2024-08-03T14:00")
-                    },
-                    {
-                        "name": "Judo - JUD16",
-                        "startTime": new Date("2024-08-03T16:00"),
-                        "endTime": new Date("2024-08-03T19:00")
-                    }
-                ]
-            }, 
-            {
-                id: 37,
-                name: "Hockey",
-                selected: false,
-                sessions:[
-                    {
-                        "name": "Hockey - HOC01",
-                        "startTime": new Date("2024-07-27T10:00"),
-                        "endTime": new Date("2024-07-27T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC02",
-                        "startTime": new Date("2024-07-27T10:30"),
-                        "endTime": new Date("2024-07-27T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC03",
-                        "startTime": new Date("2024-07-27T17:00"),
-                        "endTime": new Date("2024-07-27T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC04",
-                        "startTime": new Date("2024-07-27T17:30"),
-                        "endTime": new Date("2024-07-27T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC05",
-                        "startTime": new Date("2024-07-28T10:00"),
-                        "endTime": new Date("2024-07-28T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC06",
-                        "startTime": new Date("2024-07-28T10:30"),
-                        "endTime": new Date("2024-07-28T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC07",
-                        "startTime": new Date("2024-07-28T17:00"),
-                        "endTime": new Date("2024-07-28T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC08",
-                        "startTime": new Date("2024-07-28T17:30"),
-                        "endTime": new Date("2024-07-28T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC09",
-                        "startTime": new Date("2024-07-29T10:00"),
-                        "endTime": new Date("2024-07-29T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC10",
-                        "startTime": new Date("2024-07-29T10:30"),
-                        "endTime": new Date("2024-07-29T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC11",
-                        "startTime": new Date("2024-07-29T17:00"),
-                        "endTime": new Date("2024-07-29T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC12",
-                        "startTime": new Date("2024-07-29T17:30"),
-                        "endTime": new Date("2024-07-29T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC13",
-                        "startTime": new Date("2024-07-30T10:00"),
-                        "endTime": new Date("2024-07-30T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC14",
-                        "startTime": new Date("2024-07-30T10:30"),
-                        "endTime": new Date("2024-07-30T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC15",
-                        "startTime": new Date("2024-07-30T17:00"),
-                        "endTime": new Date("2024-07-30T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC16",
-                        "startTime": new Date("2024-07-30T17:30"),
-                        "endTime": new Date("2024-07-30T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC17",
-                        "startTime": new Date("2024-07-31T10:00"),
-                        "endTime": new Date("2024-07-31T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC18",
-                        "startTime": new Date("2024-07-31T10:30"),
-                        "endTime": new Date("2024-07-31T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC19",
-                        "startTime": new Date("2024-07-31T17:00"),
-                        "endTime": new Date("2024-07-31T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC20",
-                        "startTime": new Date("2024-07-31T17:30"),
-                        "endTime": new Date("2024-07-31T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC21",
-                        "startTime": new Date("2024-08-01T10:00"),
-                        "endTime": new Date("2024-08-01T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC22",
-                        "startTime": new Date("2024-08-01T10:30"),
-                        "endTime": new Date("2024-08-01T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC23",
-                        "startTime": new Date("2024-08-01T17:00"),
-                        "endTime": new Date("2024-08-01T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC24",
-                        "startTime": new Date("2024-08-01T17:30"),
-                        "endTime": new Date("2024-08-01T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC25",
-                        "startTime": new Date("2024-08-02T10:00"),
-                        "endTime": new Date("2024-08-02T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC26",
-                        "startTime": new Date("2024-08-02T10:30"),
-                        "endTime": new Date("2024-08-02T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC27",
-                        "startTime": new Date("2024-08-02T17:00"),
-                        "endTime": new Date("2024-08-02T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC28",
-                        "startTime": new Date("2024-08-02T17:30"),
-                        "endTime": new Date("2024-08-02T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC29",
-                        "startTime": new Date("2024-08-03T10:00"),
-                        "endTime": new Date("2024-08-03T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC30",
-                        "startTime": new Date("2024-08-03T10:30"),
-                        "endTime": new Date("2024-08-03T15:30")
-                    },
-                    {
-                        "name": "Hockey - HOC31",
-                        "startTime": new Date("2024-08-03T17:00"),
-                        "endTime": new Date("2024-08-03T22:00")
-                    },
-                    {
-                        "name": "Hockey - HOC32",
-                        "startTime": new Date("2024-08-03T17:30"),
-                        "endTime": new Date("2024-08-03T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC33",
-                        "startTime": new Date("2024-08-04T10:00"),
-                        "endTime": new Date("2024-08-04T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC34",
-                        "startTime": new Date("2024-08-04T17:30"),
-                        "endTime": new Date("2024-08-04T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC35",
-                        "startTime": new Date("2024-08-05T10:00"),
-                        "endTime": new Date("2024-08-05T15:00")
-                    },
-                    {
-                        "name": "Hockey - HOC36",
-                        "startTime": new Date("2024-08-05T17:30"),
-                        "endTime": new Date("2024-08-05T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC37",
-                        "startTime": new Date("2024-08-06T14:00"),
-                        "endTime": new Date("2024-08-06T16:00")
-                    },
-                    {
-                        "name": "Hockey - HOC38",
-                        "startTime": new Date("2024-08-06T19:00"),
-                        "endTime": new Date("2024-08-06T21:30")
-                    },
-                    {
-                        "name": "Hockey - HOC39",
-                        "startTime": new Date("2024-08-07T14:00"),
-                        "endTime": new Date("2024-08-07T16:00")
-                    },
-                    {
-                        "name": "Hockey - HOC40",
-                        "startTime": new Date("2024-08-07T20:00"),
-                        "endTime": new Date("2024-08-07T22:30")
-                    },
-                    {
-                        "name": "Hockey - HOC41",
-                        "startTime": new Date("2024-09-07T20:00"),
-                        "endTime": new Date("2024-09-07T22:30")
-                    }
-                ]
-            }, 
-            {
-                id: 38,
-                name: "Handebol",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Handebol - HBL01",
-                      startTime: new Date("2024-07-25T09:00"),
-                      endTime: new Date("2024-07-25T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL02",
-                      startTime: new Date("2024-07-25T14:00"),
-                      endTime: new Date("2024-07-25T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL03",
-                      startTime: new Date("2024-07-25T19:00"),
-                      endTime: new Date("2024-07-25T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL04",
-                      startTime: null,
-                      endTime: null,
-                    },
-                    {
-                      name: "Handebol - HBL05",
-                      startTime: new Date("2024-07-27T09:00"),
-                      endTime: new Date("2024-07-27T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL06",
-                      startTime: new Date("2024-07-27T14:00"),
-                      endTime: new Date("2024-07-27T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL07",
-                      startTime: new Date("2024-07-27T19:00"),
-                      endTime: new Date("2024-07-27T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL08",
-                      startTime: new Date("2024-07-28T09:00"),
-                      endTime: new Date("2024-07-28T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL09",
-                      startTime: new Date("2024-07-28T14:00"),
-                      endTime: new Date("2024-07-28T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL10",
-                      startTime: new Date("2024-07-28T19:00"),
-                      endTime: new Date("2024-07-28T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL11",
-                      startTime: new Date("2024-07-29T09:00"),
-                      endTime: new Date("2024-07-29T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL12",
-                      startTime: new Date("2024-07-29T14:00"),
-                      endTime: new Date("2024-07-29T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL13",
-                      startTime: new Date("2024-07-30T09:00"),
-                      endTime: new Date("2024-07-30T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL14",
-                      startTime: new Date("2024-07-30T14:00"),
-                      endTime: new Date("2024-07-30T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL15",
-                      startTime: new Date("2024-07-30T19:00"),
-                      endTime: new Date("2024-07-30T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL16",
-                      startTime: new Date("2024-07-31T09:00"),
-                      endTime: new Date("2024-07-31T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL17",
-                      startTime: new Date("2024-07-31T14:00"),
-                      endTime: new Date("2024-07-31T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL18",
-                      startTime: new Date("2024-07-31T19:00"),
-                      endTime: new Date("2024-07-31T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL19",
-                      startTime: new Date("2024-08-01T09:00"),
-                      endTime: new Date("2024-08-01T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL20",
-                      startTime: new Date("2024-08-01T14:00"),
-                      endTime: new Date("2024-08-01T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL21",
-                      startTime: new Date("2024-08-01T19:00"),
-                      endTime: new Date("2024-08-01T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL22",
-                      startTime: new Date("2024-08-02T09:00"),
-                      endTime: new Date("2024-08-02T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL23",
-                      startTime: new Date("2024-08-02T14:00"),
-                      endTime: new Date("2024-08-02T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL24",
-                      startTime: new Date("2024-08-02T19:00"),
-                      endTime: new Date("2024-08-02T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL25",
-                      startTime: new Date("2024-08-03T09:00"),
-                      endTime: new Date("2024-08-03T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL26",
-                      startTime: new Date("2024-08-03T14:00"),
-                      endTime: new Date("2024-08-03T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL27",
-                      startTime: new Date("2024-08-03T19:00"),
-                      endTime: new Date("2024-08-03T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL28",
-                      startTime: new Date("2024-08-04T09:00"),
-                      endTime: new Date("2024-08-04T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL29",
-                      startTime: new Date("2024-08-04T14:00"),
-                      endTime: new Date("2024-08-04T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL30",
-                      startTime: new Date("2024-08-04T19:00"),
-                      endTime: new Date("2024-08-04T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL31",
-                      startTime: new Date("2024-08-05T09:00"),
-                      endTime: new Date("2024-08-05T12:30"),
-                    },
-                    {
-                      name: "Handebol - HBL32",
-                      startTime: new Date("2024-08-05T14:00"),
-                      endTime: new Date("2024-08-05T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL33",
-                      startTime: new Date("2024-08-05T19:00"),
-                      endTime: new Date("2024-08-05T22:30"),
-                    },
-                    {
-                      name: "Handebol - HBL34",
-                      startTime: new Date("2024-08-06T09:30"),
-                      endTime: new Date("2024-08-06T11:30"),
-                    },
-                    {
-                      name: "Handebol - HBL35",
-                      startTime: new Date("2024-08-06T13:30"),
-                      endTime: new Date("2024-08-06T15:30"),
-                    },
-                    {
-                      name: "Handebol - HBL36",
-                      startTime: new Date("2024-08-07T09:30"),
-                      endTime: new Date("2024-08-07T11:30"),
-                    },
-                    {
-                      name: "Handebol - HBL37",
-                      startTime: new Date("2024-08-07T13:30"),
-                      endTime: new Date("2024-08-07T15:30"),
-                    },
-                    {
-                      name: "Handebol - HBL38",
-                      startTime: new Date("2024-08-07T16:30"),
-                      endTime: new Date("2024-08-07T18:30"),
-                    },
-                    {
-                      name: "Handebol - HBL39",
-                      startTime: new Date("2024-08-07T21:30"),
-                      endTime: new Date("2024-08-07T23:30"),
-                    },
-                    {
-                      name: "Handebol - HBL40",
-                      startTime: new Date("2024-08-08T16:30"),
-                      endTime: new Date("2024-08-08T18:30"),
-                    },
-                    {
-                      name: "Handebol - HBL41",
-                      startTime: new Date("2024-08-08T21:30"),
-                      endTime: new Date("2024-08-08T23:30"),
-                    },
-                    {
-                      name: "Handebol - HBL42",
-                      startTime: new Date("2024-08-09T16:30"),
-                      endTime: new Date("2024-08-09T18:30"),
-                    },
-                    {
-                      name: "Handebol - HBL43",
-                      startTime: new Date("2024-08-09T21:30"),
-                      endTime: new Date("2024-08-09T23:30"),
-                    },
-                    {
-                      name: "Handebol - HBL44",
-                      startTime: new Date("2024-08-10T10:00"),
-                      endTime: new Date("2024-08-10T12:00"),
-                    },
-                    {
-                      name: "Handebol - HBL45",
-                      startTime: new Date("2024-08-10T15:00"),
-                      endTime: new Date("2024-08-10T17:30"),
-                    },
-                    {
-                      name: "Handebol - HBL46",
-                      startTime: new Date("2024-08-11T09:00"),
-                      endTime: new Date("2024-08-11T11:00"),
-                    },
-                    
-                ]
-            }, 
-            {
-                id: 39,
-                name: "Ginástica de Trampolim ",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Ginástica de Trampolim - GTR01",
-                      startTime: new Date("2024-08-02T12:00"),
-                      endTime: new Date("2024-08-02T14:30"),
-                    },
-                    {
-                      name: "Ginástica de Trampolim  - GTR02",
-                      startTime: new Date("2024-08-02T18:00"),
-                      endTime: new Date("2024-08-02T20:30"),
-                    }
-                ]
-            }, 
-            {
-                id: 40,
-                name: "Ginástica Rítmica",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Ginástica Rítmica - GRY01",
-                      startTime: new Date("2024-08-08T10:00"),
-                      endTime: new Date("2024-08-08T13:00"),
-                    },
-                    {
-                      name: "Ginástica Rítmica - GRY02",
-                      startTime: new Date("2024-08-08T15:00"),
-                      endTime: new Date("2024-08-08T18:00"),
-                    },
-                    {
-                      name: "Ginástica Rítmica - GRY03",
-                      startTime: new Date("2024-08-09T10:00"),
-                      endTime: new Date("2024-08-09T12:30"),
-                    },
-                    {
-                      name: "Ginástica Rítmica - GRY04",
-                      startTime: new Date("2024-08-09T14:30"),
-                      endTime: new Date("2024-08-09T17:00"),
-                    },
-                    {
-                      name: "Ginástica Rítmica - GRY05",
-                      startTime: new Date("2024-08-10T14:00"),
-                      endTime: new Date("2024-08-10T15:45"),
-                    }
-                ]
-            }, 
-            {
-                id: 41,
-                name: "Golf",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Golf - GLF01",
-                      startTime: new Date("2024-08-01T09:00"),
-                      endTime: new Date("2024-08-01T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF02",
-                      startTime: new Date("2024-08-02T09:00"),
-                      endTime: new Date("2024-08-02T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF03",
-                      startTime: new Date("2024-08-03T09:00"),
-                      endTime: new Date("2024-08-03T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF04",
-                      startTime: new Date("2024-08-04T09:00"),
-                      endTime: new Date("2024-08-04T18:30"),
-                    },
-                    {
-                      name: "Golf - GLF05",
-                      startTime: new Date("2024-08-07T09:00"),
-                      endTime: new Date("2024-08-07T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF06",
-                      startTime: new Date("2024-08-08T09:00"),
-                      endTime: new Date("2024-08-08T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF07",
-                      startTime: new Date("2024-08-09T09:00"),
-                      endTime: new Date("2024-08-09T18:00"),
-                    },
-                    {
-                      name: "Golf - GLF08",
-                      startTime: new Date("2024-08-10T09:00"),
-                      endTime: new Date("2024-08-10T18:30"),
-                    }
-                ]
-            }, 
-            {
-                id: 42,
-                name: "Ginástica Artística",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Ginástica Artística - GAR01",
-                      startTime: new Date("2024-07-27T11:00"),
-                      endTime: new Date("2024-07-27T13:30"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR02",
-                      startTime: new Date("2024-07-27T15:30"),
-                      endTime: new Date("2024-07-27T18:00"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR03",
-                      startTime: new Date("2024-07-27T20:00"),
-                      endTime: new Date("2024-07-27T22:30"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR04",
-                      startTime: new Date("2024-07-28T09:30"),
-                      endTime: new Date("2024-07-28T13:20"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR05",
-                      startTime: new Date("2024-07-28T14:50"),
-                      endTime: new Date("2024-07-28T16:30"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR06",
-                      startTime: new Date("2024-07-28T18:00"),
-                      endTime: new Date("2024-07-28T19:40"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR07",
-                      startTime: new Date("2024-07-28T21:10"),
-                      endTime: new Date("2024-07-28T22:50"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR08",
-                      startTime: new Date("2024-07-29T17:30"),
-                      endTime: new Date("2024-07-29T20:30"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR09",
-                      startTime: new Date("2024-07-30T18:15"),
-                      endTime: new Date("2024-07-30T20:30"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR10",
-                      startTime: new Date("2024-07-31T17:30"),
-                      endTime: new Date("2024-07-31T20:15"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR11",
-                      startTime: new Date("2024-08-01T18:15"),
-                      endTime: new Date("2024-08-01T20:25"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR12",
-                      startTime: new Date("2024-08-03T15:30"),
-                      endTime: new Date("2024-08-03T18:00"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR13",
-                      startTime: new Date("2024-08-04T15:00"),
-                      endTime: new Date("2024-08-04T17:25"),
-                    },
-                    {
-                      name: "Ginástica Artística - GAR14",
-                      startTime: new Date("2024-08-05T12:00"),
-                      endTime: new Date("2024-08-05T15:15"),
-                    }
-                ]
-            }, 
-            {
-                id: 43,
-                name: "Esgrima",
-                selected: false,
-                sessions:[
-                    {
-                      name: "Esgrima - FEN01",
-                      startTime: new Date("2024-07-27T10:00"),
-                      endTime: new Date("2024-07-27T16:40"),
-                    },
-                    {
-                      name: "Esgrima - FEN02",
-                      startTime: new Date("2024-07-27T19:00"),
-                      endTime: new Date("2024-07-27T22:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN03",
-                      startTime: new Date("2024-07-28T09:30"),
-                      endTime: new Date("2024-07-28T16:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN04",
-                      startTime: new Date("2024-07-28T19:00"),
-                      endTime: new Date("2024-07-28T23:10"),
-                    },
-                    {
-                      name: "Esgrima - FEN05",
-                      startTime: new Date("2024-07-29T10:00"),
-                      endTime: new Date("2024-07-29T16:40"),
-                    },
-                    {
-                      name: "Esgrima - FEN06",
-                      startTime: new Date("2024-07-29T19:00"),
-                      endTime: new Date("2024-07-29T22:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN07",
-                      startTime: new Date("2024-07-30T09:30"),
-                      endTime: new Date("2024-07-30T16:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN08",
-                      startTime: new Date("2024-07-30T19:00"),
-                      endTime: new Date("2024-07-30T23:10"),
-                    },
-                    {
-                      name: "Esgrima - FEN09",
-                      startTime: new Date("2024-07-31T10:00"),
-                      endTime: new Date("2024-07-31T16:40"),
-                    },
-                    {
-                      name: "Esgrima - FEN10",
-                      startTime: new Date("2024-07-31T19:00"),
-                      endTime: new Date("2024-07-31T22:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN11",
-                      startTime: new Date("2024-08-01T09:30"),
-                      endTime: new Date("2024-08-01T16:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN12",
-                      startTime: new Date("2024-08-01T19:00"),
-                      endTime: new Date("2024-08-01T23:10"),
-                    },
-                    {
-                      name: "Esgrima - FEN13",
-                      startTime: new Date("2024-08-02T10:00"),
-                      endTime: new Date("2024-08-02T16:40"),
-                    },
-                    {
-                      name: "Esgrima - FEN14",
-                      startTime: new Date("2024-08-02T19:00"),
-                      endTime: new Date("2024-08-02T22:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN15",
-                      startTime: new Date("2024-08-03T09:30"),
-                      endTime: new Date("2024-08-03T16:50"),
-                    },
-                    {
-                      name: "Esgrima - FEN16",
-                      startTime: new Date("2024-08-03T19:00"),
-                      endTime: new Date("2024-08-03T23:10"),
-                    },
-                    {
-                      name: "Esgrima - FEN17",
-                      startTime: new Date("2024-08-04T10:00"),
-                      endTime: new Date("2024-08-04T17:10"),
-                    },
-                    {
-                      name: "Esgrima - FEN18",
-                      startTime: new Date("2024-08-04T19:10"),
-                      endTime: new Date("2024-08-04T22:10"),
-                    }
-                  ]     
+                name: "Water polo - WPO01",
+                startTime: new Date("2024-07-30T19:30"),
+                endTime: new Date("2024-07-30T22:30"),
             },
+            {
+                name: "Water polo - WPO02",
+                startTime: new Date("2024-07-30T15:00"),
+                endTime: new Date("2024-07-30T18:00"),
+            },
+            {
+                name: "Water polo - WPO03",
+                startTime: new Date("2024-07-30T10:30"),
+                endTime: new Date("2024-07-30T13:30"),
+            },
+            {
+                name: "Water polo - WPO04",
+                startTime: new Date("2024-07-29T18:30"),
+                endTime: new Date("2024-07-29T21:30"),
+            },
+            {
+                name: "Water polo - WPO05",
+                startTime: new Date("2024-07-29T14:00"),
+                endTime: new Date("2024-07-29T17:00"),
+            },
+            {
+                name: "Water polo - WPO06",
+                startTime: new Date("2024-07-28T19:30"),
+                endTime: new Date("2024-07-28T22:30"),
+            },
+            {
+                name: "Water polo - WPO07",
+                startTime: new Date("2024-07-28T15:00"),
+                endTime: new Date("2024-07-28T18:00"),
+            },
+            {
+                name: "Water polo - WPO08",
+                startTime: new Date("2024-07-28T10:30"),
+                endTime: new Date("2024-07-28T13:30"),
+            },
+            {
+                name: "Water polo - WPO09",
+                startTime: new Date("2024-07-27T18:30"),
+                endTime: new Date("2024-07-27T21:30"),
+            },
+            {
+                name: "Water polo - WPO10",
+                startTime: new Date("2024-07-27T14:00"),
+                endTime: new Date("2024-07-27T17:00"),
+            },
+            {
+                name: "Water polo - WPO11",
+                startTime: new Date("2024-08-08T18:00"),
+                endTime: new Date("2024-08-08T21:00"),
+            },
+            {
+                name: "Water polo - WPO12",
+                startTime: new Date("2024-08-08T13:00"),
+                endTime: new Date("2024-08-08T16:00"),
+            },
+            {
+                name: "Water polo - WPO13",
+                startTime: new Date("2024-08-08T18:00"),
+                endTime: new Date("2024-08-08T21:00"),
+            },
+            {
+                name: "Water polo - WPO14",
+                startTime: new Date("2024-08-07T19:00"),
+                endTime: new Date("2024-08-07T22:00"),
+            },
+            {
+                name: "Water polo - WPO15",
+                startTime: new Date("2024-08-07T14:00"),
+                endTime: new Date("2024-08-07T17:00"),
+            },
+            {
+                name: "Water polo - WPO16",
+                startTime: new Date("2024-08-06T19:00"),
+                endTime: new Date("2024-08-06T22:00"),
+            },
+            {
+                name: "Water polo - WPO17",
+                startTime: new Date("2024-08-06T14:00"),
+                endTime: new Date("2024-08-06T17:00"),
+            },
+            {
+                name: "Water polo - WPO18",
+                startTime: new Date("2024-08-05T18:30"),
+                endTime: new Date("2024-08-05T23:00"),
+            },
+            {
+                name: "Water polo - WPO19",
+                startTime: new Date("2024-08-05T12:00"),
+                endTime: new Date("2024-08-05T16:30"),
+            },
+            {
+                name: "Water polo - WPO20",
+                startTime: new Date("2024-08-04T18:30"),
+                endTime: new Date("2024-08-04T21:30"),
+            },
+            {
+                name: "Water polo - WPO21",
+                startTime: new Date("2024-08-04T14:00"),
+                endTime: new Date("2024-08-04T17:00"),
+            },
+            {
+                name: "Water polo - WPO22",
+                startTime: new Date("2024-07-30T15:00"),
+                endTime: new Date("2024-07-30T18:00"),
+            },
+            {
+                name: "Water polo - WPO23",
+                startTime: new Date("2024-07-30T10:30"),
+                endTime: new Date("2024-07-30T13:30"),
+            },
+            {
+                name: "Water polo - WPO24",
+                startTime: new Date("2024-07-29T18:30"),
+                endTime: new Date("2024-07-29T21:30"),
+            },
+            {
+                name: "Water polo - WPO25",
+                startTime: new Date("2024-07-29T14:00"),
+                endTime: new Date("2024-07-29T17:00"),
+            },
+            {
+                name: "Water polo - WPO26",
+                startTime: new Date("2024-08-11T14:00"),
+                endTime: new Date("2024-08-11T15:50"),
+            },
+            {
+                name: "Water polo - WPO27",
+                startTime: new Date("2024-08-11T09:00"),
+                endTime: new Date("2024-08-11T12:00"),
+            },
+            {
+                name: "Water polo - WPO28",
+                startTime: new Date("2024-08-10T14:00"),
+                endTime: new Date("2024-08-10T21:00"),
+            },
+            {
+                name: "Water polo - WPO29",
+                startTime: new Date("2024-08-10T09:00"),
+                endTime: new Date("2024-08-10T12:00"),
+            },
+            {
+                name: "Water polo - WPO30",
+                startTime: new Date("2024-08-09T18:00"),
+                endTime: new Date("2024-08-09T21:00"),
+            },
+            {
+                name: "Water polo - WPO31",
+                startTime: new Date("2024-08-09T13:00"),
+                endTime: new Date("2024-08-09T16:00"),
+            }
+        ]
+    },
+    {
+        id: 18,
+        name: "Weightlifting",
+        selected: false,
+        sessions: [
+            {
+                "name": "Weightlifting - WLF01",
+                "startTime": new Date("2024-08-07T15:00"),
+                "endTime": new Date("2024-08-07T17:30")
+            },
+            {
+                "name": "Weightlifting - WLF01",
+                "startTime": new Date("2024-08-07T19:30"),
+                "endTime": new Date("2024-08-07T22:00")
+            },
+            {
+                "name": "Weightlifting - WLF03",
+                "startTime": new Date("2024-08-08T15:00"),
+                "endTime": new Date("2024-08-08T17:30")
+            },
+            {
+                "name": "Weightlifting - WLF03",
+                "startTime": new Date("2024-08-08T19:30"),
+                "endTime": new Date("2024-08-08T22:00")
+            },
+            {
+                "name": "Weightlifting - WLF05",
+                "startTime": new Date("2024-08-09T15:00"),
+                "endTime": new Date("2024-08-09T17:30")
+            },
+            {
+                "name": "Weightlifting - WLF05",
+                "startTime": new Date("2024-08-09T19:30"),
+                "endTime": new Date("2024-08-09T22:00")
+            },
+            {
+                "name": "Weightlifting - WLF07",
+                "startTime": new Date("2024-08-10T11:30"),
+                "endTime": new Date("2024-08-10T14:00")
+            },
+            {
+                "name": "Weightlifting - WLF07",
+                "startTime": new Date("2024-08-10T16:00"),
+                "endTime": new Date("2024-08-10T18:30")
+            },
+            {
+                "name": "Weightlifting - WLF07",
+                "startTime": new Date("2024-08-10T20:30"),
+                "endTime": new Date("2024-08-10T23:00")
+            },
+            {
+                "name": "Weightlifting - WLF06",
+                "startTime": new Date("2024-08-11T11:30"),
+                "endTime": new Date("2024-08-11T14:00")
+            }
+        ]
+    },
+    {
+        id: 19,
+        name: "Volleyball",
+        selected: false,
+        sessions: [
+            {
+                "name": "Volleyball - VVO01",
+                "startTime": new Date("2024-07-27T09:00"),
+                "endTime": new Date("2024-07-27T11:30")
+            },
+            {
+                "name": "Volleyball - VVO02",
+                "startTime": new Date("2024-07-27T13:00"),
+                "endTime": new Date("2024-07-27T15:30")
+            },
+            {
+                "name": "Volleyball - VVO03",
+                "startTime": new Date("2024-07-27T17:00"),
+                "endTime": new Date("2024-07-27T19:30")
+            },
+            {
+                "name": "Volleyball - VVO04",
+                "startTime": new Date("2024-07-27T21:00"),
+                "endTime": new Date("2024-07-27T23:30")
+            },
+            {
+                "name": "Volleyball - VVO05",
+                "startTime": new Date("2024-07-28T09:00"),
+                "endTime": new Date("2024-07-28T11:30")
+            },
+            {
+                "name": "Volleyball - VVO06",
+                "startTime": new Date("2024-07-28T13:00"),
+                "endTime": new Date("2024-07-28T15:30")
+            },
+            {
+                "name": "Volleyball - VVO07",
+                "startTime": new Date("2024-07-28T17:00"),
+                "endTime": new Date("2024-07-28T19:30")
+            },
+            {
+                "name": "Volleyball - VVO08",
+                "startTime": new Date("2024-07-28T21:00"),
+                "endTime": new Date("2024-07-28T23:30")
+            },
+            {
+                "name": "Volleyball - VVO09",
+                "startTime": new Date("2024-07-29T09:00"),
+                "endTime": new Date("2024-07-29T11:30")
+            },
+            {
+                "name": "Volleyball - VVO10",
+                "startTime": new Date("2024-07-29T13:00"),
+                "endTime": new Date("2024-07-29T15:30")
+            },
+            {
+                "name": "Volleyball - VVO11",
+                "startTime": new Date("2024-07-29T17:00"),
+                "endTime": new Date("2024-07-29T19:30")
+            },
+            {
+                "name": "Volleyball - VVO12",
+                "startTime": new Date("2024-07-29T21:00"),
+                "endTime": new Date("2024-07-29T23:30")
+            },
+            {
+                "name": "Volleyball - VVO13",
+                "startTime": new Date("2024-07-30T09:00"),
+                "endTime": new Date("2024-07-30T11:30")
+            },
+            {
+                "name": "Volleyball - VVO14",
+                "startTime": new Date("2024-07-30T13:00"),
+                "endTime": new Date("2024-07-30T15:30")
+            },
+            {
+                "name": "Volleyball - VVO15",
+                "startTime": new Date("2024-07-30T17:00"),
+                "endTime": new Date("2024-07-30T19:30")
+            },
+            {
+                "name": "Volleyball - VVO16",
+                "startTime": new Date("2024-07-31T09:00"),
+                "endTime": new Date("2024-07-31T11:30")
+            },
+            {
+                "name": "Volleyball - VVO17",
+                "startTime": new Date("2024-07-31T13:00"),
+                "endTime": new Date("2024-07-31T15:30")
+            },
+            {
+                "name": "Volleyball - VVO18",
+                "startTime": new Date("2024-07-31T17:00"),
+                "endTime": new Date("2024-07-31T19:30")
+            },
+            {
+                "name": "Volleyball - VVO19",
+                "startTime": new Date("2024-07-31T21:00"),
+                "endTime": new Date("2024-07-31T23:30")
+            },
+            {
+                "name": "Volleyball - VVO20",
+                "startTime": new Date("2024-08-01T09:00"),
+                "endTime": new Date("2024-08-01T11:30")
+            },
+            {
+                "name": "Volleyball - VVO21",
+                "startTime": new Date("2024-08-01T13:00"),
+                "endTime": new Date("2024-08-01T15:30")
+            },
+            {
+                "name": "Volleyball - VVO22",
+                "startTime": new Date("2024-08-01T17:00"),
+                "endTime": new Date("2024-08-01T19:30")
+            },
+            {
+                "name": "Volleyball - VVO23",
+                "startTime": new Date("2024-08-01T21:00"),
+                "endTime": new Date("2024-08-01T23:30")
+            },
+            {
+                "name": "Volleyball - VVO24",
+                "startTime": new Date("2024-08-02T09:00"),
+                "endTime": new Date("2024-08-02T11:30")
+            },
+            {
+                "name": "Volleyball - VVO25",
+                "startTime": new Date("2024-08-02T13:00"),
+                "endTime": new Date("2024-08-02T15:30")
+            },
+            {
+                "name": "Volleyball - VVO26",
+                "startTime": new Date("2024-08-02T17:00"),
+                "endTime": new Date("2024-08-02T19:30")
+            },
+            {
+                "name": "Volleyball - VVO27",
+                "startTime": new Date("2024-08-02T21:00"),
+                "endTime": new Date("2024-08-02T23:30")
+            },
+            {
+                "name": "Volleyball - VVO28",
+                "startTime": new Date("2024-08-03T09:00"),
+                "endTime": new Date("2024-08-03T11:30")
+            },
+            {
+                "name": "Volleyball - VVO29",
+                "startTime": new Date("2024-08-03T13:00"),
+                "endTime": new Date("2024-08-03T15:30")
+            },
+            {
+                "name": "Volleyball - VVO30",
+                "startTime": new Date("2024-08-03T17:00"),
+                "endTime": new Date("2024-08-03T19:30")
+            },
+            {
+                "name": "Volleyball - VVO31",
+                "startTime": new Date("2024-08-04T09:00"),
+                "endTime": new Date("2024-08-04T11:30")
+            },
+            {
+                "name": "Volleyball - VVO32",
+                "startTime": new Date("2024-08-04T13:00"),
+                "endTime": new Date("2024-08-04T15:30")
+            },
+            {
+                "name": "Volleyball - VVO33",
+                "startTime": new Date("2024-08-04T17:00"),
+                "endTime": new Date("2024-08-04T19:30")
+            },
+            {
+                "name": "Volleyball - VVO34",
+                "startTime": new Date("2024-08-04T21:00"),
+                "endTime": new Date("2024-08-04T23:30")
+            },
+            {
+                "name": "Volleyball - VVO35",
+                "startTime": new Date("2024-08-05T09:00"),
+                "endTime": new Date("2024-08-05T11:30")
+            },
+            {
+                "name": "Volleyball - VVO36",
+                "startTime": new Date("2024-08-05T13:00"),
+                "endTime": new Date("2024-08-05T15:30")
+            },
+            {
+                "name": "Volleyball - VVO37",
+                "startTime": new Date("2024-08-05T17:00"),
+                "endTime": new Date("2024-08-05T19:30")
+            },
+            {
+                "name": "Volleyball - VVO38",
+                "startTime": new Date("2024-08-05T21:00"),
+                "endTime": new Date("2024-08-05T23:30")
+            },
+            {
+                "name": "Volleyball - VVO39",
+                "startTime": new Date("2024-08-06T09:00"),
+                "endTime": new Date("2024-08-06T11:30")
+            },
+            {
+                "name": "Volleyball - VVO40",
+                "startTime": new Date("2024-08-06T13:00"),
+                "endTime": new Date("2024-08-06T15:30")
+            },
+            {
+                "name": "Volleyball - VVO41",
+                "startTime": new Date("2024-08-06T17:00"),
+                "endTime": new Date("2024-08-06T19:30")
+            },
+            {
+                "name": "Volleyball - VVO42",
+                "startTime": new Date("2024-08-06T21:00"),
+                "endTime": new Date("2024-08-06T23:30")
+            },
+            {
+                "name": "Volleyball - VVO43",
+                "startTime": new Date("2024-08-07T16:00"),
+                "endTime": new Date("2024-08-07T18:30")
+            },
+            {
+                "name": "Volleyball - VVO44",
+                "startTime": new Date("2024-08-07T20:00"),
+                "endTime": new Date("2024-08-07T22:30")
+            },
+            {
+                "name": "Volleyball - VVO45",
+                "startTime": new Date("2024-08-08T16:00"),
+                "endTime": new Date("2024-08-08T18:30")
+            },
+            {
+                "name": "Volleyball - VVO46",
+                "startTime": new Date("2024-08-08T20:00"),
+                "endTime": new Date("2024-08-08T22:30")
+            },
+            {
+                "name": "Volleyball - VVO47",
+                "startTime": new Date("2024-08-09T16:00"),
+                "endTime": new Date("2024-08-09T18:30")
+            },
+            {
+                "name": "Volleyball - VVO48",
+                "startTime": new Date("2024-08-09T20:00"),
+                "endTime": new Date("2024-08-09T22:30")
+            }
+        ]
+    },
+    {
+        id: 20,
+        name: "Beach volleyball",
+        selected: false,
+        sessions: [
+            {
+                "name": "Beach volleyball - VBV01",
+                "startTime": new Date("2024-07-27T09:00"),
+                "endTime": new Date("2024-07-27T11:00")
+            },
+            {
+                "name": "Beach volleyball - VBV02",
+                "startTime": new Date("2024-07-27T13:00"),
+                "endTime": new Date("2024-07-27T15:00")
+            },
+            {
+                "name": "Beach volleyball - VBV03",
+                "startTime": new Date("2024-07-27T17:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV04",
+                "startTime": new Date("2024-07-27T21:00"),
+                "endTime": new Date("2024-07-27T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV05",
+                "startTime": new Date("2024-07-28T09:00"),
+                "endTime": new Date("2024-07-28T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV06",
+                "startTime": new Date("2024-07-28T15:00"),
+                "endTime": new Date("2024-07-28T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV07",
+                "startTime": new Date("2024-07-28T20:00"),
+                "endTime": new Date("2024-07-28T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV08",
+                "startTime": new Date("2024-07-29T09:00"),
+                "endTime": new Date("2024-07-29T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV09",
+                "startTime": new Date("2024-07-29T15:00"),
+                "endTime": new Date("2024-07-29T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV10",
+                "startTime": new Date("2024-07-29T20:00"),
+                "endTime": new Date("2024-07-29T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV11",
+                "startTime": new Date("2024-07-30T09:00"),
+                "endTime": new Date("2024-07-30T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV12",
+                "startTime": new Date("2024-07-30T15:00"),
+                "endTime": new Date("2024-07-30T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV13",
+                "startTime": new Date("2024-07-30T20:00"),
+                "endTime": new Date("2024-07-30T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV14",
+                "startTime": new Date("2024-07-31T09:00"),
+                "endTime": new Date("2024-07-31T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV15",
+                "startTime": new Date("2024-07-31T15:00"),
+                "endTime": new Date("2024-07-31T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV16",
+                "startTime": new Date("2024-07-31T20:00"),
+                "endTime": new Date("2024-07-31T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV17",
+                "startTime": new Date("2024-08-01T09:00"),
+                "endTime": new Date("2024-08-01T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV18",
+                "startTime": new Date("2024-08-01T15:00"),
+                "endTime": new Date("2024-08-01T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV19",
+                "startTime": new Date("2024-08-01T20:00"),
+                "endTime": new Date("2024-08-01T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV20",
+                "startTime": new Date("2024-08-02T09:00"),
+                "endTime": new Date("2024-08-02T13:00")
+            },
+            {
+                "name": "Beach volleyball - VBV21",
+                "startTime": new Date("2024-08-02T15:00"),
+                "endTime": new Date("2024-08-02T18:00")
+            },
+            {
+                "name": "Beach volleyball - VBV22",
+                "startTime": new Date("2024-08-02T20:00"),
+                "endTime": new Date("2024-08-02T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV23",
+                "startTime": new Date("2024-08-03T09:00"),
+                "endTime": new Date("2024-08-03T11:00")
+            },
+            {
+                "name": "Beach volleyball - VBV24",
+                "startTime": new Date("2024-08-03T13:00"),
+                "endTime": new Date("2024-08-03T15:00")
+            },
+            {
+                "name": "Beach volleyball - VBV25",
+                "startTime": new Date("2024-08-03T17:00"),
+                "endTime": new Date("2024-08-03T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV26",
+                "startTime": new Date("2024-08-03T21:00"),
+                "endTime": new Date("2024-08-03T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV27",
+                "startTime": new Date("2024-08-04T09:00"),
+                "endTime": new Date("2024-08-04T11:00")
+            },
+            {
+                "name": "Beach volleyball - VBV28",
+                "startTime": new Date("2024-08-04T13:00"),
+                "endTime": new Date("2024-08-04T15:00")
+            },
+            {
+                "name": "Beach volleyball - VBV29",
+                "startTime": new Date("2024-08-04T17:00"),
+                "endTime": new Date("2024-08-04T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV30",
+                "startTime": new Date("2024-08-04T21:00"),
+                "endTime": new Date("2024-08-04T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV31",
+                "startTime": new Date("2024-08-05T09:00"),
+                "endTime": new Date("2024-08-05T11:00")
+            },
+            {
+                "name": "Beach volleyball - VBV32",
+                "startTime": new Date("2024-08-05T13:00"),
+                "endTime": new Date("2024-08-05T15:00")
+            },
+            {
+                "name": "Beach volleyball - VBV33",
+                "startTime": new Date("2024-08-05T17:00"),
+                "endTime": new Date("2024-08-05T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV34",
+                "startTime": new Date("2024-08-05T21:00"),
+                "endTime": new Date("2024-08-05T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV35",
+                "startTime": new Date("2024-08-06T17:00"),
+                "endTime": new Date("2024-08-06T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV36",
+                "startTime": new Date("2024-08-06T21:00"),
+                "endTime": new Date("2024-08-06T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV37",
+                "startTime": new Date("2024-08-06T20:00"),
+                "endTime": new Date("2024-08-06T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV38",
+                "startTime": new Date("2024-08-07T17:00"),
+                "endTime": new Date("2024-08-07T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV39",
+                "startTime": new Date("2024-08-07T21:00"),
+                "endTime": new Date("2024-08-07T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV40",
+                "startTime": new Date("2024-08-08T17:00"),
+                "endTime": new Date("2024-08-08T19:00")
+            },
+            {
+                "name": "Beach volleyball - VBV41",
+                "startTime": new Date("2024-08-08T21:00"),
+                "endTime": new Date("2024-08-08T23:00")
+            },
+            {
+                "name": "Beach volleyball - VBV42",
+                "startTime": new Date("2024-08-09T21:00"),
+                "endTime": new Date("2024-08-10T00:00")
+            },
+            {
+                "name": "Beach volleyball - VBV43",
+                "startTime": new Date("2024-08-10T21:00"),
+                "endTime": new Date("2024-08-11T00:00")
+            }
+        ]
+    },
+    {
+        id: 21,
+        name: "Table tennis",
+        selected: false,
+        sessions: [
+            {
+                "name": "Table tennis - TTE01",
+                "startTime": new Date("2024-07-27T15:00"),
+                "endTime": new Date("2024-07-27T18:00")
+            },
+            {
+                "name": "Table tennis - TTE02",
+                "startTime": new Date("2024-07-27T20:00"),
+                "endTime": new Date("2024-07-27T23:00")
+            },
+            {
+                "name": "Table tennis - TTE03",
+                "startTime": new Date("2024-07-28T10:00"),
+                "endTime": new Date("2024-07-28T14:00")
+            },
+            {
+                "name": "Table tennis - TTE04",
+                "startTime": new Date("2024-07-28T16:00"),
+                "endTime": new Date("2024-07-28T18:00")
+            },
+            {
+                "name": "Table tennis - TTE05",
+                "startTime": new Date("2024-07-28T20:00"),
+                "endTime": new Date("2024-07-28T23:00")
+            },
+            {
+                "name": "Table tennis - TTE06",
+                "startTime": new Date("2024-07-29T10:00"),
+                "endTime": new Date("2024-07-29T14:00")
+            },
+            {
+                "name": "Table tennis - TTE07",
+                "startTime": new Date("2024-07-29T16:00"),
+                "endTime": new Date("2024-07-29T18:00")
+            },
+            {
+                "name": "Table tennis - TTE08",
+                "startTime": new Date("2024-07-29T20:00"),
+                "endTime": new Date("2024-07-29T23:00")
+            },
+            {
+                "name": "Table tennis - TTE09",
+                "startTime": new Date("2024-07-30T10:00"),
+                "endTime": new Date("2024-07-30T12:00")
+            },
+            {
+                "name": "Table tennis - TTE10",
+                "startTime": new Date("2024-07-30T13:30"),
+                "endTime": new Date("2024-07-30T16:00")
+            },
+            {
+                "name": "Table tennis - TTE11",
+                "startTime": new Date("2024-07-30T13:30"),
+                "endTime": new Date("2024-07-30T16:00")
+            },
+            {
+                "name": "Table tennis - TTE12",
+                "startTime": new Date("2024-07-31T10:00"),
+                "endTime": new Date("2024-07-31T13:00")
+            },
+            {
+                "name": "Table tennis - TTE13",
+                "startTime": new Date("2024-07-31T15:00"),
+                "endTime": new Date("2024-07-31T18:00")
+            },
+            {
+                "name": "Table tennis - TTE14",
+                "startTime": new Date("2024-07-31T20:00"),
+                "endTime": new Date("2024-07-31T23:00")
+            },
+            {
+                "name": "Table tennis - TTE15",
+                "startTime": new Date("2024-08-01T10:00"),
+                "endTime": new Date("2024-08-01T13:00")
+            },
+            {
+                "name": "Table tennis - TTE16",
+                "startTime": new Date("2024-08-01T10:00"),
+                "endTime": new Date("2024-08-01T13:00")
+            },
+            {
+                "name": "Table tennis - TTE17",
+                "startTime": new Date("2024-08-01T15:00"),
+                "endTime": new Date("2024-08-01T18:00")
+            },
+            {
+                "name": "Table tennis - TTE18",
+                "startTime": new Date("2024-08-01T15:00"),
+                "endTime": new Date("2024-08-01T18:00")
+            },
+            {
+                "name": "Table tennis - TTE19",
+                "startTime": new Date("2024-08-02T10:00"),
+                "endTime": new Date("2024-08-02T13:00")
+            },
+            {
+                "name": "Table tennis - TTE20",
+                "startTime": new Date("2024-08-02T10:00"),
+                "endTime": new Date("2024-08-02T13:00")
+            },
+            {
+                "name": "Table tennis - TTE21",
+                "startTime": new Date("2024-08-02T15:00"),
+                "endTime": new Date("2024-08-02T18:00")
+            },
+            {
+                "name": "Table tennis - TTE22",
+                "startTime": new Date("2024-08-02T15:00"),
+                "endTime": new Date("2024-08-02T18:00")
+            },
+            {
+                "name": "Table tennis - TTE23",
+                "startTime": new Date("2024-08-03T13:30"),
+                "endTime": new Date("2024-08-03T16:00")
+            },
+            {
+                "name": "Table tennis - TTE24",
+                "startTime": new Date("2024-08-04T13:30"),
+                "endTime": new Date("2024-08-04T16:00")
+            },
+            {
+                "name": "Table tennis - TTE25",
+                "startTime": new Date("2024-08-04T13:30"),
+                "endTime": new Date("2024-08-04T16:00")
+            },
+            {
+                "name": "Table tennis - TTE26",
+                "startTime": new Date("2024-08-05T10:00"),
+                "endTime": new Date("2024-08-05T13:00")
+            },
+            {
+                "name": "Table tennis - TTE27",
+                "startTime": new Date("2024-08-05T15:00"),
+                "endTime": new Date("2024-08-05T18:00")
+            },
+            {
+                "name": "Table tennis - TTE28",
+                "startTime": new Date("2024-08-05T20:00"),
+                "endTime": new Date("2024-08-05T23:00")
+            },
+            {
+                "name": "Table tennis - TTE29",
+                "startTime": new Date("2024-08-06T10:00"),
+                "endTime": new Date("2024-08-06T13:00")
+            },
+            {
+                "name": "Table tennis - TTE30",
+                "startTime": new Date("2024-08-06T15:00"),
+                "endTime": new Date("2024-08-06T18:00")
+            },
+            {
+                "name": "Table tennis - TTE31",
+                "startTime": new Date("2024-08-06T20:00"),
+                "endTime": new Date("2024-08-06T23:00")
+            },
+            {
+                "name": "Table tennis - TTE32",
+                "startTime": new Date("2024-08-07T10:00"),
+                "endTime": new Date("2024-08-07T13:00")
+            },
+            {
+                "name": "Table tennis - TTE33",
+                "startTime": new Date("2024-08-07T15:00"),
+                "endTime": new Date("2024-08-07T18:00")
+            },
+            {
+                "name": "Table tennis - TTE34",
+                "startTime": new Date("2024-08-07T20:00"),
+                "endTime": new Date("2024-08-07T23:00")
+            },
+            {
+                "name": "Table tennis - TTE35",
+                "startTime": new Date("2024-08-08T10:00"),
+                "endTime": new Date("2024-08-08T13:00")
+            },
+            {
+                "name": "Table tennis - TTE36",
+                "startTime": new Date("2024-08-08T15:00"),
+                "endTime": new Date("2024-08-08T18:30")
+            },
+            {
+                "name": "Table tennis - TTE37",
+                "startTime": new Date("2024-08-08T15:00"),
+                "endTime": new Date("2024-08-08T18:30")
+            },
+            {
+                "name": "Table tennis - TTE38",
+                "startTime": new Date("2024-08-09T10:00"),
+                "endTime": new Date("2024-08-09T13:00")
+            },
+            {
+                "name": "Table tennis - TTE39",
+                "startTime": new Date("2024-08-09T15:00"),
+                "endTime": new Date("2024-08-09T18:30")
+            },
+            {
+                "name": "Table tennis - TTE40",
+                "startTime": new Date("2024-08-09T15:00"),
+                "endTime": new Date("2024-08-09T18:30")
+            },
+            {
+                "name": "Table tennis - TTE41",
+                "startTime": new Date("2024-08-09T15:00"),
+                "endTime": new Date("2024-08-09T18:30")
+            },
+            {
+                "name": "Table tennis - TTE42",
+                "startTime": new Date("2024-08-10T10:00"),
+                "endTime": new Date("2024-08-10T13:00")
+            },
+            {
+                "name": "Table tennis - TTE43",
+                "startTime": new Date("2024-08-10T15:00"),
+                "endTime": new Date("2024-08-10T18:30")
+            }
+        ]
+    },
+    {
+        id: 22,
+        name: "Triathlon",
+        selected: false,
+        sessions: [
+            {
+                "name": "Triathlon - TRI01",
+                "startTime": new Date("2024-07-30T08:00"),
+                "endTime": new Date("2024-07-30T10:30")
+            },
+            {
+                "name": "Triathlon - TRI02",
+                "startTime": new Date("2024-07-31T08:00"),
+                "endTime": new Date("2024-07-31T10:40")
+            },
+            {
+                "name": "Triathlon - TRI03",
+                "startTime": new Date("2024-08-05T08:00"),
+                "endTime": new Date("2024-08-05T10:10")
+            }
+        ]
+    },
+    {
+        id: 23,
+        name: "Taekwondo",
+        selected: false,
+        sessions: [
+            {
+                "name": "Taekwondo - TKW01",
+                "startTime": new Date("2024-08-07T09:00"),
+                "endTime": new Date("2024-08-07T12:30")
+            },
+            {
+                "name": "Taekwondo - TKW02",
+                "startTime": new Date("2024-08-07T14:30"),
+                "endTime": new Date("2024-08-07T17:30")
+            },
+            {
+                "name": "Taekwondo - TKW03",
+                "startTime": new Date("2024-08-07T19:30"),
+                "endTime": new Date("2024-08-07T23:00")
+            },
+            {
+                "name": "Taekwondo - TKW04",
+                "startTime": new Date("2024-08-08T09:00"),
+                "endTime": new Date("2024-08-08T12:30")
+            },
+            {
+                "name": "Taekwondo - TKW05",
+                "startTime": new Date("2024-08-08T14:30"),
+                "endTime": new Date("2024-08-08T17:30")
+            },
+            {
+                "name": "Taekwondo - TKW06",
+                "startTime": new Date("2024-08-08T19:30"),
+                "endTime": new Date("2024-08-08T23:00")
+            },
+            {
+                "name": "Taekwondo - TKW07",
+                "startTime": new Date("2024-08-09T09:00"),
+                "endTime": new Date("2024-08-09T12:30")
+            },
+            {
+                "name": "Taekwondo - TKW08",
+                "startTime": new Date("2024-08-09T14:30"),
+                "endTime": new Date("2024-08-09T17:30")
+            },
+            {
+                "name": "Taekwondo - TKW09",
+                "startTime": new Date("2024-08-09T19:30"),
+                "endTime": new Date("2024-08-09T23:00")
+            },
+            {
+                "name": "Taekwondo - TKW10",
+                "startTime": new Date("2024-08-10T09:00"),
+                "endTime": new Date("2024-08-10T12:30")
+            },
+            {
+                "name": "Taekwondo - TKW11",
+                "startTime": new Date("2024-08-10T14:30"),
+                "endTime": new Date("2024-08-10T17:30")
+            },
+            {
+                "name": "Taekwondo - TKW12",
+                "startTime": new Date("2024-08-10T19:30"),
+                "endTime": new Date("2024-08-10T23:00")
+            }
+        ]
+    },
+    {
+        id: 24,
+        name: "Tennis",
+        selected: false,
+        sessions: [
+            {
+                "name": "Tennis - TEN01",
+                "startTime": new Date("2024-07-27T12:00"),
+                "endTime": new Date("2024-07-27T17:00")
+            },
+            {
+                "name": "Tennis - TEN02",
+                "startTime": new Date("2024-07-27T12:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Tennis - TEN03",
+                "startTime": new Date("2024-07-27T12:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Tennis - TEN04",
+                "startTime": new Date("2024-07-27T12:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Tennis - TEN05",
+                "startTime": new Date("2024-07-27T19:00"),
+                "endTime": new Date("2024-07-27T23:00")
+            },
+            {
+                "name": "Tennis - TEN06",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T17:00")
+            },
+            {
+                "name": "Tennis - TEN07",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Tennis - TEN08",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Tennis - TEN09",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Tennis - TEN10",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Tennis - TEN11",
+                "startTime": new Date("2024-07-29T19:00"),
+                "endTime": new Date("2024-07-29T23:00")
+            },
+            {
+                "name": "Tennis - TEN12",
+                "startTime": new Date("2024-07-29T12:00"),
+                "endTime": new Date("2024-07-29T17:00")
+            },
+            {
+                "name": "Tennis - TEN13",
+                "startTime": new Date("2024-07-29T12:00"),
+                "endTime": new Date("2024-07-29T19:00")
+            },
+            {
+                "name": "Tennis - TEN14",
+                "startTime": new Date("2024-07-29T12:00"),
+                "endTime": new Date("2024-07-29T19:00")
+            },
+            {
+                "name": "Tennis - TEN15",
+                "startTime": new Date("2024-07-29T19:00"),
+                "endTime": new Date("2024-07-29T23:00")
+            },
+            {
+                "name": "Tennis - TEN16",
+                "startTime": new Date("2024-07-30T12:00"),
+                "endTime": new Date("2024-07-30T17:00")
+            },
+            {
+                "name": "Tennis - TEN17",
+                "startTime": new Date("2024-07-30T12:00"),
+                "endTime": new Date("2024-07-30T19:00")
+            },
+            {
+                "name": "Tennis - TEN18",
+                "startTime": new Date("2024-07-30T12:00"),
+                "endTime": new Date("2024-07-30T19:00")
+            },
+            {
+                "name": "Tennis - TEN19",
+                "startTime": new Date("2024-07-30T19:00"),
+                "endTime": new Date("2024-07-30T23:00")
+            },
+            {
+                "name": "Tennis - TEN20",
+                "startTime": new Date("2024-07-30T12:00"),
+                "endTime": new Date("2024-07-30T17:00")
+            },
+            {
+                "name": "Tennis - TEN21",
+                "startTime": new Date("2024-07-31T12:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Tennis - TEN22",
+                "startTime": new Date("2024-07-31T12:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Tennis - TEN23",
+                "startTime": new Date("2024-07-31T12:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Tennis - TEN24",
+                "startTime": new Date("2024-07-31T12:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Tennis - TEN25",
+                "startTime": new Date("2024-07-31T12:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Tennis - TEN26",
+                "startTime": new Date("2024-08-01T12:00"),
+                "endTime": new Date("2024-08-01T19:00")
+            },
+            {
+                "name": "Tennis - TEN27",
+                "startTime": new Date("2024-08-01T19:00"),
+                "endTime": new Date("2024-08-01T23:00")
+            },
+            {
+                "name": "Tennis - TEN28",
+                "startTime": new Date("2024-08-01T12:00"),
+                "endTime": new Date("2024-08-01T17:00")
+            },
+            {
+                "name": "Tennis - TEN29",
+                "startTime": new Date("2024-08-01T12:00"),
+                "endTime": new Date("2024-08-01T19:00")
+            },
+            {
+                "name": "Tennis - TEN30",
+                "startTime": new Date("2024-08-02T12:00"),
+                "endTime": new Date("2024-08-02T19:00")
+            },
+            {
+                "name": "Tennis - TEN31",
+                "startTime": new Date("2024-08-02T12:00"),
+                "endTime": new Date("2024-08-02T19:00")
+            },
+            {
+                "name": "Tennis - TEN32",
+                "startTime": new Date("2024-08-02T12:00"),
+                "endTime": new Date("2024-08-02T19:00")
+            },
+            {
+                "name": "Tennis - TEN33",
+                "startTime": new Date("2024-08-03T12:00"),
+                "endTime": new Date("2024-08-03T19:00")
+            },
+            {
+                "name": "Tennis - TEN34",
+                "startTime": new Date("2024-08-04T12:00"),
+                "endTime": new Date("2024-08-04T19:00")
+            }
+        ]
+    },
+    {
+        id: 25,
+        name: "Swimming",
+        selected: false,
+        sessions: [
+            {
+                "name": "Swimming - SWM01",
+                "startTime": new Date("2024-07-27T11:00"),
+                "endTime": new Date("2024-07-27T13:00")
+            },
+            {
+                "name": "Swimming - SWM02",
+                "startTime": new Date("2024-07-27T20:30"),
+                "endTime": new Date("2024-07-27T22:30")
+            },
+            {
+                "name": "Swimming - SWM03",
+                "startTime": new Date("2024-07-28T11:00"),
+                "endTime": new Date("2024-07-28T13:00")
+            },
+            {
+                "name": "Swimming - SWM04",
+                "startTime": new Date("2024-07-28T20:30"),
+                "endTime": new Date("2024-07-28T22:30")
+            },
+            {
+                "name": "Swimming - SWM05",
+                "startTime": new Date("2024-07-29T11:00"),
+                "endTime": new Date("2024-07-29T13:00")
+            },
+            {
+                "name": "Swimming - SWM06",
+                "startTime": new Date("2024-07-29T20:30"),
+                "endTime": new Date("2024-07-29T22:30")
+            },
+            {
+                "name": "Swimming - SWM07",
+                "startTime": new Date("2024-07-30T11:00"),
+                "endTime": new Date("2024-07-30T13:00")
+            },
+            {
+                "name": "Swimming - SWM08",
+                "startTime": new Date("2024-07-30T20:30"),
+                "endTime": new Date("2024-07-30T22:30")
+            },
+            {
+                "name": "Swimming - SWM09",
+                "startTime": new Date("2024-07-31T11:00"),
+                "endTime": new Date("2024-07-31T13:00")
+            },
+            {
+                "name": "Swimming - SWM10",
+                "startTime": new Date("2024-07-31T20:30"),
+                "endTime": new Date("2024-07-31T22:30")
+            },
+            {
+                "name": "Swimming - SWM11",
+                "startTime": new Date("2024-08-01T11:00"),
+                "endTime": new Date("2024-08-01T13:00")
+            },
+            {
+                "name": "Swimming - SWM12",
+                "startTime": new Date("2024-08-01T20:30"),
+                "endTime": new Date("2024-08-01T22:30")
+            },
+            {
+                "name": "Swimming - SWM13",
+                "startTime": new Date("2024-08-02T11:00"),
+                "endTime": new Date("2024-08-02T13:00")
+            },
+            {
+                "name": "Swimming - SWM14",
+                "startTime": new Date("2024-08-02T20:30"),
+                "endTime": new Date("2024-08-02T22:30")
+            },
+            {
+                "name": "Swimming - SWM15",
+                "startTime": new Date("2024-08-03T11:00"),
+                "endTime": new Date("2024-08-03T13:00")
+            },
+            {
+                "name": "Swimming - SWM16",
+                "startTime": new Date("2024-08-03T20:30"),
+                "endTime": new Date("2024-08-03T22:30")
+            },
+            {
+                "name": "Swimming - SWM17",
+                "startTime": new Date("2024-08-04T18:30"),
+                "endTime": new Date("2024-08-04T20:30")
+            }
+        ]
+    },
+    {
+        id: 26,
+        name: "Artistic swimming",
+        selected: false,
+        sessions: [
+            {
+                "name": "Artistic swimming - SWA01",
+                "startTime": new Date("2024-08-05T19:30"),
+                "endTime": new Date("2024-08-05T21:00")
+            },
+            {
+                "name": "Artistic swimming - SWA02",
+                "startTime": new Date("2024-08-06T19:30"),
+                "endTime": new Date("2024-08-06T21:00")
+            },
+            {
+                "name": "Artistic swimming - SWA03",
+                "startTime": new Date("2024-08-07T19:30"),
+                "endTime": new Date("2024-08-07T21:15")
+            },
+            {
+                "name": "Artistic swimming - SWA04",
+                "startTime": new Date("2024-08-09T19:30"),
+                "endTime": new Date("2024-08-09T21:30")
+            },
+            {
+                "name": "Artistic swimming - SWA05",
+                "startTime": new Date("2024-08-10T19:30"),
+                "endTime": new Date("2024-08-10T22:00")
+            }
+        ]
+    },
+    {
+        id: 27,
+        name: "Surfing",
+        selected: false,
+        sessions: [
+            {
+                "name": "Surfing - SRF01",
+                "startTime": new Date("2024-07-27T07:00"),
+                "endTime": new Date("2024-07-27T16:30")
+            },
+            {
+                "name": "Surfing - SRF02",
+                "startTime": new Date("2024-07-28T07:00"),
+                "endTime": new Date("2024-07-28T16:30")
+            },
+            {
+                "name": "Surfing - SRF03",
+                "startTime": new Date("2024-07-29T07:00"),
+                "endTime": new Date("2024-07-29T16:30")
+            },
+            {
+                "name": "Surfing - SRF04",
+                "startTime": new Date("2024-07-30T07:00"),
+                "endTime": new Date("2024-07-30T16:50")
+            }
+        ]
+    },
+    {
+        id: 28,
+        name: "Skateboard",
+        selected: false,
+        sessions: [
+            {
+                "name": "Skateboard - SKB01",
+                "startTime": new Date("2024-07-27T12:00"),
+                "endTime": new Date("2024-07-27T15:30")
+            },
+            {
+                "name": "Skateboard - SKB02",
+                "startTime": new Date("2024-07-27T17:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Skateboard - SKB03",
+                "startTime": new Date("2024-07-28T12:00"),
+                "endTime": new Date("2024-07-28T15:30")
+            },
+            {
+                "name": "Skateboard - SKB04",
+                "startTime": new Date("2024-07-28T17:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Skateboard - SKB05",
+                "startTime": new Date("2024-08-06T12:30"),
+                "endTime": new Date("2024-08-06T16:00")
+            },
+            {
+                "name": "Skateboard - SKB06",
+                "startTime": new Date("2024-08-06T17:30"),
+                "endTime": new Date("2024-08-06T19:00")
+            },
+            {
+                "name": "Skateboard - SKB07",
+                "startTime": new Date("2024-08-07T12:30"),
+                "endTime": new Date("2024-08-07T16:00")
+            },
+            {
+                "name": "Skateboard - SKB08",
+                "startTime": new Date("2024-08-07T17:30"),
+                "endTime": new Date("2024-08-07T19:00")
+            }
+        ]
+    },
+    {
+        id: 29,
+        name: "Shooting",
+        selected: false,
+        sessions: [
+            {
+                "name": "Shooting - SHO01",
+                "startTime": new Date("2024-07-27T09:00"),
+                "endTime": new Date("2024-07-27T13:45")
+            },
+            {
+                "name": "Shooting - SHO02",
+                "startTime": new Date("2024-07-27T10:30"),
+                "endTime": new Date("2024-07-27T11:50")
+            },
+            {
+                "name": "Shooting - SHO03",
+                "startTime": new Date("2024-07-28T09:15"),
+                "endTime": new Date("2024-07-28T12:30")
+            },
+            {
+                "name": "Shooting - SHO04",
+                "startTime": new Date("2024-07-28T09:30"),
+                "endTime": new Date("2024-07-28T13:05")
+            },
+            {
+                "name": "Shooting - SHO05",
+                "startTime": new Date("2024-07-29T09:15"),
+                "endTime": new Date("2024-07-29T13:05")
+            },
+            {
+                "name": "Shooting - SHO06",
+                "startTime": new Date("2024-07-29T09:00"),
+                "endTime": new Date("2024-07-29T17:05")
+            },
+            {
+                "name": "Shooting - SHO07",
+                "startTime": new Date("2024-07-30T09:30"),
+                "endTime": new Date("2024-07-30T10:50")
+            },
+            {
+                "name": "Shooting - SHO08",
+                "startTime": new Date("2024-07-30T09:30"),
+                "endTime": new Date("2024-07-30T10:50")
+            },
+            {
+                "name": "Shooting - SHO09",
+                "startTime": new Date("2024-07-31T09:00"),
+                "endTime": new Date("2024-07-31T10:30")
+            },
+            {
+                "name": "Shooting - SHO10",
+                "startTime": new Date("2024-07-31T09:00"),
+                "endTime": new Date("2024-07-31T17:05")
+            },
+            {
+                "name": "Shooting - SHO11",
+                "startTime": new Date("2024-08-01T09:30"),
+                "endTime": new Date("2024-08-01T10:50")
+            },
+            {
+                "name": "Shooting - SHO12",
+                "startTime": new Date("2024-08-01T12:00"),
+                "endTime": new Date("2024-08-01T13:30")
+            },
+            {
+                "name": "Shooting - SHO13",
+                "startTime": new Date("2024-08-02T09:00"),
+                "endTime": new Date("2024-08-02T14:30")
+            },
+            {
+                "name": "Shooting - SHO14",
+                "startTime": new Date("2024-08-02T09:00"),
+                "endTime": new Date("2024-08-02T14:00")
+            },
+            {
+                "name": "Shooting - SHO15",
+                "startTime": new Date("2024-08-02T09:30"),
+                "endTime": new Date("2024-08-02T10:50")
+            },
+            {
+                "name": "Shooting - SHO16",
+                "startTime": new Date("2024-08-03T09:00"),
+                "endTime": new Date("2024-08-03T17:05")
+            },
+            {
+                "name": "Shooting - SHO17",
+                "startTime": new Date("2024-08-03T09:30"),
+                "endTime": new Date("2024-08-03T10:50")
+            },
+            {
+                "name": "Shooting - SHO18",
+                "startTime": new Date("2024-08-04T09:00"),
+                "endTime": new Date("2024-08-04T17:00")
+            },
+            {
+                "name": "Shooting - SHO19",
+                "startTime": new Date("2024-08-04T09:30"),
+                "endTime": new Date("2024-08-04T17:05")
+            },
+            {
+                "name": "Shooting - SHO20",
+                "startTime": new Date("2024-08-05T09:00"),
+                "endTime": new Date("2024-08-05T16:35")
+            },
+            {
+                "name": "Shooting - SHO21",
+                "startTime": new Date("2024-08-05T09:30"),
+                "endTime": new Date("2024-08-05T10:50")
+            }
+        ]
+    },
+    {
+        id: 30,
+        name: "Sailing",
+        selected: false,
+        sessions: [
+            {
+                "name": "Sailing - SAL01",
+                "startTime": new Date("2024-07-28T11:00"),
+                "endTime": new Date("2024-07-28T19:00")
+            },
+            {
+                "name": "Sailing - SAL02",
+                "startTime": new Date("2024-07-29T11:00"),
+                "endTime": new Date("2024-07-29T19:00")
+            },
+            {
+                "name": "Sailing - SAL03",
+                "startTime": new Date("2024-07-30T11:00"),
+                "endTime": new Date("2024-07-30T19:00")
+            },
+            {
+                "name": "Sailing - SAL04",
+                "startTime": new Date("2024-07-31T11:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Sailing - SAL05",
+                "startTime": new Date("2024-08-01T11:00"),
+                "endTime": new Date("2024-08-01T19:00")
+            },
+            {
+                "name": "Sailing - SAL06",
+                "startTime": new Date("2024-08-02T11:00"),
+                "endTime": new Date("2024-08-02T19:00")
+            },
+            {
+                "name": "Sailing - SAL07",
+                "startTime": new Date("2024-08-03T11:00"),
+                "endTime": new Date("2024-08-03T19:00")
+            },
+            {
+                "name": "Sailing - SAL08",
+                "startTime": new Date("2024-08-04T11:00"),
+                "endTime": new Date("2024-08-04T19:00")
+            },
+            {
+                "name": "Sailing - SAL09",
+                "startTime": new Date("2024-08-05T11:00"),
+                "endTime": new Date("2024-08-05T19:00")
+            },
+            {
+                "name": "Sailing - SAL10",
+                "startTime": new Date("2024-08-06T11:00"),
+                "endTime": new Date("2024-08-06T19:00")
+            },
+            {
+                "name": "Sailing - SAL11",
+                "startTime": new Date("2024-08-07T11:00"),
+                "endTime": new Date("2024-08-07T19:00")
+            },
+            {
+                "name": "Sailing - SAL12",
+                "startTime": new Date("2024-08-08T11:00"),
+                "endTime": new Date("2024-08-08T19:00")
+            }
+        ]
+    },
+    {
+        id: 31,
+        name: "Rugby sevens",
+        selected: false,
+        sessions: [
+            {
+                "name": "Rugby sevens - RUG01",
+                "startTime": new Date("2024-07-24T14:00"),
+                "endTime": new Date("2024-07-24T17:00")
+            },
+            {
+                "name": "Rugby sevens - RUG02",
+                "startTime": new Date("2024-07-25T14:00"),
+                "endTime": new Date("2024-07-25T17:00")
+            },
+            {
+                "name": "Rugby sevens - RUG03",
+                "startTime": new Date("2024-07-25T14:30"),
+                "endTime": new Date("2024-07-25T20:45")
+            },
+            {
+                "name": "Rugby sevens - RUG04",
+                "startTime": new Date("2024-07-27T14:00"),
+                "endTime": new Date("2024-07-27T17:00")
+            },
+            {
+                "name": "Rugby sevens - RUG05",
+                "startTime": new Date("2024-07-28T20:00"),
+                "endTime": new Date("2024-07-28T23:00")
+            },
+            {
+                "name": "Rugby sevens - RUG06",
+                "startTime": new Date("2024-07-29T20:00"),
+                "endTime": new Date("2024-07-29T23:00")
+            },
+            {
+                "name": "Rugby sevens - RUG07",
+                "startTime": new Date("2024-07-29T15:30"),
+                "endTime": new Date("2024-07-29T22:00")
+            },
+            {
+                "name": "Rugby sevens - RUG08",
+                "startTime": new Date("2024-07-30T15:30"),
+                "endTime": new Date("2024-07-30T22:00")
+            }
+        ]
+    },
+    {
+        id: 32,
+        name: "Rowing",
+        selected: false,
+        sessions: [
+            {
+                "name": "Rowing - ROW01",
+                "startTime": new Date("2024-07-28T09:00"),
+                "endTime": new Date("2024-07-28T13:10")
+            },
+            {
+                "name": "Rowing - ROW02",
+                "startTime": new Date("2024-07-29T09:00"),
+                "endTime": new Date("2024-07-29T13:10")
+            },
+            {
+                "name": "Rowing - ROW03",
+                "startTime": new Date("2024-07-30T09:30"),
+                "endTime": new Date("2024-07-30T12:20")
+            },
+            {
+                "name": "Rowing - ROW04",
+                "startTime": new Date("2024-07-31T09:30"),
+                "endTime": new Date("2024-07-31T11:50")
+            },
+            {
+                "name": "Rowing - ROW05",
+                "startTime": new Date("2024-08-01T09:30"),
+                "endTime": new Date("2024-08-01T11:50")
+            },
+            {
+                "name": "Rowing - ROW06",
+                "startTime": new Date("2024-08-01T09:30"),
+                "endTime": new Date("2024-08-01T12:40")
+            },
+            {
+                "name": "Rowing - ROW07",
+                "startTime": new Date("2024-08-02T09:30"),
+                "endTime": new Date("2024-08-02T12:50")
+            },
+            {
+                "name": "Rowing - ROW08",
+                "startTime": new Date("2024-08-03T09:30"),
+                "endTime": new Date("2024-08-03T11:40")
+            }
+        ]
+    },
+    {
+        id: 33,
+        name: "Marathon Swimming",
+        selected: false,
+        sessions: [
+            {
+                "name": "Marathon Swimming - OWS01",
+                "startTime": new Date("2024-08-13T07:30"),
+                "endTime": new Date("2024-08-13T10:30")
+            },
+            {
+                "name": "Marathon Swimming - OWS02",
+                "startTime": new Date("2024-08-14T07:30"),
+                "endTime": new Date("2024-08-14T10:30")
+            }
+        ]
+    },
+    {
+        id: 34,
+        name: "Mountain Bike",
+        selected: false,
+        sessions: [
+            {
+                "name": "Mountain Bike - MTB01",
+                "startTime": new Date("2024-07-28T14:00"),
+                "endTime": new Date("2024-07-28T16:30")
+            },
+            {
+                "name": "Mountain Bike - MTB01",
+                "startTime": new Date("2024-07-29T14:00"),
+                "endTime": new Date("2024-07-29T16:30")
+            }
+        ]
+    },
+    {
+        id: 35,
+        name: "Modern pentathlon",
+        selected: false,
+        sessions: [
+            {
+                "name": "Modern pentathlon - MPN01",
+                "startTime": new Date("2024-08-08T11:00"),
+                "endTime": new Date("2024-08-08T17:30")
+            },
+            {
+                "name": "Modern pentathlon - MPN02",
+                "startTime": new Date("2024-08-09T13:00"),
+                "endTime": new Date("2024-08-09T19:00")
+            },
+            {
+                "name": "Modern pentathlon - MPN03",
+                "startTime": new Date("2024-08-10T09:30"),
+                "endTime": new Date("2024-08-10T15:30")
+            },
+            {
+                "name": "Modern pentathlon - MPN04",
+                "startTime": new Date("2024-08-10T17:00"),
+                "endTime": new Date("2024-08-10T19:30")
+            },
+            {
+                "name": "Modern pentathlon - MPN05",
+                "startTime": new Date("2024-08-11T11:00"),
+                "endTime": new Date("2024-08-11T13:30")
+            }
+        ]
+    },
+    {
+        id: 36,
+        name: "Judo",
+        selected: false,
+        sessions: [
+            {
+                "name": "Judo - JUD01",
+                "startTime": new Date("2024-07-27T10:00"),
+                "endTime": new Date("2024-07-27T14:00")
+            },
+            {
+                "name": "Judo - JUD02",
+                "startTime": new Date("2024-07-27T16:00"),
+                "endTime": new Date("2024-07-27T19:00")
+            },
+            {
+                "name": "Judo - JUD03",
+                "startTime": new Date("2024-07-26T10:00"),
+                "endTime": new Date("2024-07-26T14:00")
+            },
+            {
+                "name": "Judo - JUD04",
+                "startTime": new Date("2024-07-26T16:00"),
+                "endTime": new Date("2024-07-26T19:00")
+            },
+            {
+                "name": "Judo - JUD05",
+                "startTime": new Date("2024-07-29T10:00"),
+                "endTime": new Date("2024-07-29T14:00")
+            },
+            {
+                "name": "Judo - JUD06",
+                "startTime": new Date("2024-07-29T16:00"),
+                "endTime": new Date("2024-07-29T19:00")
+            },
+            {
+                "name": "Judo - JUD07",
+                "startTime": new Date("2024-07-30T10:00"),
+                "endTime": new Date("2024-07-30T14:00")
+            },
+            {
+                "name": "Judo - JUD08",
+                "startTime": new Date("2024-07-30T16:00"),
+                "endTime": new Date("2024-07-30T19:00")
+            },
+            {
+                "name": "Judo - JUD09",
+                "startTime": new Date("2024-07-31T10:00"),
+                "endTime": new Date("2024-07-31T14:00")
+            },
+            {
+                "name": "Judo - JUD10",
+                "startTime": new Date("2024-07-31T16:00"),
+                "endTime": new Date("2024-07-31T19:00")
+            },
+            {
+                "name": "Judo - JUD11",
+                "startTime": new Date("2024-08-01T10:00"),
+                "endTime": new Date("2024-08-01T14:00")
+            },
+            {
+                "name": "Judo - JUD12",
+                "startTime": new Date("2024-08-01T16:00"),
+                "endTime": new Date("2024-08-01T19:00")
+            },
+            {
+                "name": "Judo - JUD13",
+                "startTime": new Date("2024-08-02T10:00"),
+                "endTime": new Date("2024-08-02T14:00")
+            },
+            {
+                "name": "Judo - JUD14",
+                "startTime": new Date("2024-08-02T16:00"),
+                "endTime": new Date("2024-08-02T19:00")
+            },
+            {
+                "name": "Judo - JUD15",
+                "startTime": new Date("2024-08-03T08:00"),
+                "endTime": new Date("2024-08-03T14:00")
+            },
+            {
+                "name": "Judo - JUD16",
+                "startTime": new Date("2024-08-03T16:00"),
+                "endTime": new Date("2024-08-03T19:00")
+            }
+        ]
+    },
+    {
+        id: 37,
+        name: "Hockey",
+        selected: false,
+        sessions: [
+            {
+                "name": "Hockey - HOC01",
+                "startTime": new Date("2024-07-27T10:00"),
+                "endTime": new Date("2024-07-27T15:00")
+            },
+            {
+                "name": "Hockey - HOC02",
+                "startTime": new Date("2024-07-27T10:30"),
+                "endTime": new Date("2024-07-27T15:30")
+            },
+            {
+                "name": "Hockey - HOC03",
+                "startTime": new Date("2024-07-27T17:00"),
+                "endTime": new Date("2024-07-27T22:00")
+            },
+            {
+                "name": "Hockey - HOC04",
+                "startTime": new Date("2024-07-27T17:30"),
+                "endTime": new Date("2024-07-27T22:30")
+            },
+            {
+                "name": "Hockey - HOC05",
+                "startTime": new Date("2024-07-28T10:00"),
+                "endTime": new Date("2024-07-28T15:00")
+            },
+            {
+                "name": "Hockey - HOC06",
+                "startTime": new Date("2024-07-28T10:30"),
+                "endTime": new Date("2024-07-28T15:30")
+            },
+            {
+                "name": "Hockey - HOC07",
+                "startTime": new Date("2024-07-28T17:00"),
+                "endTime": new Date("2024-07-28T22:00")
+            },
+            {
+                "name": "Hockey - HOC08",
+                "startTime": new Date("2024-07-28T17:30"),
+                "endTime": new Date("2024-07-28T22:30")
+            },
+            {
+                "name": "Hockey - HOC09",
+                "startTime": new Date("2024-07-29T10:00"),
+                "endTime": new Date("2024-07-29T15:00")
+            },
+            {
+                "name": "Hockey - HOC10",
+                "startTime": new Date("2024-07-29T10:30"),
+                "endTime": new Date("2024-07-29T15:30")
+            },
+            {
+                "name": "Hockey - HOC11",
+                "startTime": new Date("2024-07-29T17:00"),
+                "endTime": new Date("2024-07-29T22:00")
+            },
+            {
+                "name": "Hockey - HOC12",
+                "startTime": new Date("2024-07-29T17:30"),
+                "endTime": new Date("2024-07-29T22:30")
+            },
+            {
+                "name": "Hockey - HOC13",
+                "startTime": new Date("2024-07-30T10:00"),
+                "endTime": new Date("2024-07-30T15:00")
+            },
+            {
+                "name": "Hockey - HOC14",
+                "startTime": new Date("2024-07-30T10:30"),
+                "endTime": new Date("2024-07-30T15:30")
+            },
+            {
+                "name": "Hockey - HOC15",
+                "startTime": new Date("2024-07-30T17:00"),
+                "endTime": new Date("2024-07-30T22:00")
+            },
+            {
+                "name": "Hockey - HOC16",
+                "startTime": new Date("2024-07-30T17:30"),
+                "endTime": new Date("2024-07-30T22:30")
+            },
+            {
+                "name": "Hockey - HOC17",
+                "startTime": new Date("2024-07-31T10:00"),
+                "endTime": new Date("2024-07-31T15:00")
+            },
+            {
+                "name": "Hockey - HOC18",
+                "startTime": new Date("2024-07-31T10:30"),
+                "endTime": new Date("2024-07-31T15:30")
+            },
+            {
+                "name": "Hockey - HOC19",
+                "startTime": new Date("2024-07-31T17:00"),
+                "endTime": new Date("2024-07-31T22:00")
+            },
+            {
+                "name": "Hockey - HOC20",
+                "startTime": new Date("2024-07-31T17:30"),
+                "endTime": new Date("2024-07-31T22:30")
+            },
+            {
+                "name": "Hockey - HOC21",
+                "startTime": new Date("2024-08-01T10:00"),
+                "endTime": new Date("2024-08-01T15:00")
+            },
+            {
+                "name": "Hockey - HOC22",
+                "startTime": new Date("2024-08-01T10:30"),
+                "endTime": new Date("2024-08-01T15:30")
+            },
+            {
+                "name": "Hockey - HOC23",
+                "startTime": new Date("2024-08-01T17:00"),
+                "endTime": new Date("2024-08-01T22:00")
+            },
+            {
+                "name": "Hockey - HOC24",
+                "startTime": new Date("2024-08-01T17:30"),
+                "endTime": new Date("2024-08-01T22:30")
+            },
+            {
+                "name": "Hockey - HOC25",
+                "startTime": new Date("2024-08-02T10:00"),
+                "endTime": new Date("2024-08-02T15:00")
+            },
+            {
+                "name": "Hockey - HOC26",
+                "startTime": new Date("2024-08-02T10:30"),
+                "endTime": new Date("2024-08-02T15:30")
+            },
+            {
+                "name": "Hockey - HOC27",
+                "startTime": new Date("2024-08-02T17:00"),
+                "endTime": new Date("2024-08-02T22:00")
+            },
+            {
+                "name": "Hockey - HOC28",
+                "startTime": new Date("2024-08-02T17:30"),
+                "endTime": new Date("2024-08-02T22:30")
+            },
+            {
+                "name": "Hockey - HOC29",
+                "startTime": new Date("2024-08-03T10:00"),
+                "endTime": new Date("2024-08-03T15:00")
+            },
+            {
+                "name": "Hockey - HOC30",
+                "startTime": new Date("2024-08-03T10:30"),
+                "endTime": new Date("2024-08-03T15:30")
+            },
+            {
+                "name": "Hockey - HOC31",
+                "startTime": new Date("2024-08-03T17:00"),
+                "endTime": new Date("2024-08-03T22:00")
+            },
+            {
+                "name": "Hockey - HOC32",
+                "startTime": new Date("2024-08-03T17:30"),
+                "endTime": new Date("2024-08-03T22:30")
+            },
+            {
+                "name": "Hockey - HOC33",
+                "startTime": new Date("2024-08-04T10:00"),
+                "endTime": new Date("2024-08-04T15:00")
+            },
+            {
+                "name": "Hockey - HOC34",
+                "startTime": new Date("2024-08-04T17:30"),
+                "endTime": new Date("2024-08-04T22:30")
+            },
+            {
+                "name": "Hockey - HOC35",
+                "startTime": new Date("2024-08-05T10:00"),
+                "endTime": new Date("2024-08-05T15:00")
+            },
+            {
+                "name": "Hockey - HOC36",
+                "startTime": new Date("2024-08-05T17:30"),
+                "endTime": new Date("2024-08-05T22:30")
+            },
+            {
+                "name": "Hockey - HOC37",
+                "startTime": new Date("2024-08-06T14:00"),
+                "endTime": new Date("2024-08-06T16:00")
+            },
+            {
+                "name": "Hockey - HOC38",
+                "startTime": new Date("2024-08-06T19:00"),
+                "endTime": new Date("2024-08-06T21:30")
+            },
+            {
+                "name": "Hockey - HOC39",
+                "startTime": new Date("2024-08-07T14:00"),
+                "endTime": new Date("2024-08-07T16:00")
+            },
+            {
+                "name": "Hockey - HOC40",
+                "startTime": new Date("2024-08-07T20:00"),
+                "endTime": new Date("2024-08-07T22:30")
+            },
+            {
+                "name": "Hockey - HOC41",
+                "startTime": new Date("2024-09-07T20:00"),
+                "endTime": new Date("2024-09-07T22:30")
+            }
+        ]
+    },
+    {
+        id: 38,
+        name: "Handball",
+        selected: false,
+        sessions: [
+            {
+                name: "Handball - HBL01",
+                startTime: new Date("2024-07-25T09:00"),
+                endTime: new Date("2024-07-25T12:30"),
+            },
+            {
+                name: "Handball - HBL02",
+                startTime: new Date("2024-07-25T14:00"),
+                endTime: new Date("2024-07-25T17:30"),
+            },
+            {
+                name: "Handball - HBL03",
+                startTime: new Date("2024-07-25T19:00"),
+                endTime: new Date("2024-07-25T22:30"),
+            },
+            {
+                name: "Handball - HBL04",
+                startTime: null,
+                endTime: null,
+            },
+            {
+                name: "Handball - HBL05",
+                startTime: new Date("2024-07-27T09:00"),
+                endTime: new Date("2024-07-27T12:30"),
+            },
+            {
+                name: "Handball - HBL06",
+                startTime: new Date("2024-07-27T14:00"),
+                endTime: new Date("2024-07-27T17:30"),
+            },
+            {
+                name: "Handball - HBL07",
+                startTime: new Date("2024-07-27T19:00"),
+                endTime: new Date("2024-07-27T22:30"),
+            },
+            {
+                name: "Handball - HBL08",
+                startTime: new Date("2024-07-28T09:00"),
+                endTime: new Date("2024-07-28T12:30"),
+            },
+            {
+                name: "Handball - HBL09",
+                startTime: new Date("2024-07-28T14:00"),
+                endTime: new Date("2024-07-28T17:30"),
+            },
+            {
+                name: "Handball - HBL10",
+                startTime: new Date("2024-07-28T19:00"),
+                endTime: new Date("2024-07-28T22:30"),
+            },
+            {
+                name: "Handball - HBL11",
+                startTime: new Date("2024-07-29T09:00"),
+                endTime: new Date("2024-07-29T12:30"),
+            },
+            {
+                name: "Handball - HBL12",
+                startTime: new Date("2024-07-29T14:00"),
+                endTime: new Date("2024-07-29T17:30"),
+            },
+            {
+                name: "Handball - HBL13",
+                startTime: new Date("2024-07-30T09:00"),
+                endTime: new Date("2024-07-30T12:30"),
+            },
+            {
+                name: "Handball - HBL14",
+                startTime: new Date("2024-07-30T14:00"),
+                endTime: new Date("2024-07-30T17:30"),
+            },
+            {
+                name: "Handball - HBL15",
+                startTime: new Date("2024-07-30T19:00"),
+                endTime: new Date("2024-07-30T22:30"),
+            },
+            {
+                name: "Handball - HBL16",
+                startTime: new Date("2024-07-31T09:00"),
+                endTime: new Date("2024-07-31T12:30"),
+            },
+            {
+                name: "Handball - HBL17",
+                startTime: new Date("2024-07-31T14:00"),
+                endTime: new Date("2024-07-31T17:30"),
+            },
+            {
+                name: "Handball - HBL18",
+                startTime: new Date("2024-07-31T19:00"),
+                endTime: new Date("2024-07-31T22:30"),
+            },
+            {
+                name: "Handball - HBL19",
+                startTime: new Date("2024-08-01T09:00"),
+                endTime: new Date("2024-08-01T12:30"),
+            },
+            {
+                name: "Handball - HBL20",
+                startTime: new Date("2024-08-01T14:00"),
+                endTime: new Date("2024-08-01T17:30"),
+            },
+            {
+                name: "Handball - HBL21",
+                startTime: new Date("2024-08-01T19:00"),
+                endTime: new Date("2024-08-01T22:30"),
+            },
+            {
+                name: "Handball - HBL22",
+                startTime: new Date("2024-08-02T09:00"),
+                endTime: new Date("2024-08-02T12:30"),
+            },
+            {
+                name: "Handball - HBL23",
+                startTime: new Date("2024-08-02T14:00"),
+                endTime: new Date("2024-08-02T17:30"),
+            },
+            {
+                name: "Handball - HBL24",
+                startTime: new Date("2024-08-02T19:00"),
+                endTime: new Date("2024-08-02T22:30"),
+            },
+            {
+                name: "Handball - HBL25",
+                startTime: new Date("2024-08-03T09:00"),
+                endTime: new Date("2024-08-03T12:30"),
+            },
+            {
+                name: "Handball - HBL26",
+                startTime: new Date("2024-08-03T14:00"),
+                endTime: new Date("2024-08-03T17:30"),
+            },
+            {
+                name: "Handball - HBL27",
+                startTime: new Date("2024-08-03T19:00"),
+                endTime: new Date("2024-08-03T22:30"),
+            },
+            {
+                name: "Handball - HBL28",
+                startTime: new Date("2024-08-04T09:00"),
+                endTime: new Date("2024-08-04T12:30"),
+            },
+            {
+                name: "Handball - HBL29",
+                startTime: new Date("2024-08-04T14:00"),
+                endTime: new Date("2024-08-04T17:30"),
+            },
+            {
+                name: "Handball - HBL30",
+                startTime: new Date("2024-08-04T19:00"),
+                endTime: new Date("2024-08-04T22:30"),
+            },
+            {
+                name: "Handball - HBL31",
+                startTime: new Date("2024-08-05T09:00"),
+                endTime: new Date("2024-08-05T12:30"),
+            },
+            {
+                name: "Handball - HBL32",
+                startTime: new Date("2024-08-05T14:00"),
+                endTime: new Date("2024-08-05T17:30"),
+            },
+            {
+                name: "Handball - HBL33",
+                startTime: new Date("2024-08-05T19:00"),
+                endTime: new Date("2024-08-05T22:30"),
+            },
+            {
+                name: "Handball - HBL34",
+                startTime: new Date("2024-08-06T09:30"),
+                endTime: new Date("2024-08-06T11:30"),
+            },
+            {
+                name: "Handball - HBL35",
+                startTime: new Date("2024-08-06T13:30"),
+                endTime: new Date("2024-08-06T15:30"),
+            },
+            {
+                name: "Handball - HBL36",
+                startTime: new Date("2024-08-07T09:30"),
+                endTime: new Date("2024-08-07T11:30"),
+            },
+            {
+                name: "Handball - HBL37",
+                startTime: new Date("2024-08-07T13:30"),
+                endTime: new Date("2024-08-07T15:30"),
+            },
+            {
+                name: "Handball - HBL38",
+                startTime: new Date("2024-08-07T16:30"),
+                endTime: new Date("2024-08-07T18:30"),
+            },
+            {
+                name: "Handball - HBL39",
+                startTime: new Date("2024-08-07T21:30"),
+                endTime: new Date("2024-08-07T23:30"),
+            },
+            {
+                name: "Handball - HBL40",
+                startTime: new Date("2024-08-08T16:30"),
+                endTime: new Date("2024-08-08T18:30"),
+            },
+            {
+                name: "Handball - HBL41",
+                startTime: new Date("2024-08-08T21:30"),
+                endTime: new Date("2024-08-08T23:30"),
+            },
+            {
+                name: "Handball - HBL42",
+                startTime: new Date("2024-08-09T16:30"),
+                endTime: new Date("2024-08-09T18:30"),
+            },
+            {
+                name: "Handball - HBL43",
+                startTime: new Date("2024-08-09T21:30"),
+                endTime: new Date("2024-08-09T23:30"),
+            },
+            {
+                name: "Handball - HBL44",
+                startTime: new Date("2024-08-10T10:00"),
+                endTime: new Date("2024-08-10T12:00"),
+            },
+            {
+                name: "Handball - HBL45",
+                startTime: new Date("2024-08-10T15:00"),
+                endTime: new Date("2024-08-10T17:30"),
+            },
+            {
+                name: "Handball - HBL46",
+                startTime: new Date("2024-08-11T09:00"),
+                endTime: new Date("2024-08-11T11:00"),
+            },
+
+        ]
+    },
+    {
+        id: 39,
+        name: "Trampoline gymnastics",
+        selected: false,
+        sessions: [
+            {
+                name: "Trampoline gymnastics - GTR01",
+                startTime: new Date("2024-08-02T12:00"),
+                endTime: new Date("2024-08-02T14:30"),
+            },
+            {
+                name: "Trampoline gymnastics  - GTR02",
+                startTime: new Date("2024-08-02T18:00"),
+                endTime: new Date("2024-08-02T20:30"),
+            }
+        ]
+    },
+    {
+        id: 40,
+        name: "Rhythmic gymnastics",
+        selected: false,
+        sessions: [
+            {
+                name: "Rhythmic gymnastics - GRY01",
+                startTime: new Date("2024-08-08T10:00"),
+                endTime: new Date("2024-08-08T13:00"),
+            },
+            {
+                name: "Rhythmic gymnastics - GRY02",
+                startTime: new Date("2024-08-08T15:00"),
+                endTime: new Date("2024-08-08T18:00"),
+            },
+            {
+                name: "Rhythmic gymnastics - GRY03",
+                startTime: new Date("2024-08-09T10:00"),
+                endTime: new Date("2024-08-09T12:30"),
+            },
+            {
+                name: "Rhythmic gymnastics - GRY04",
+                startTime: new Date("2024-08-09T14:30"),
+                endTime: new Date("2024-08-09T17:00"),
+            },
+            {
+                name: "Rhythmic gymnastics - GRY05",
+                startTime: new Date("2024-08-10T14:00"),
+                endTime: new Date("2024-08-10T15:45"),
+            }
+        ]
+    },
+    {
+        id: 41,
+        name: "Golf",
+        selected: false,
+        sessions: [
+            {
+                name: "Golf - GLF01",
+                startTime: new Date("2024-08-01T09:00"),
+                endTime: new Date("2024-08-01T18:00"),
+            },
+            {
+                name: "Golf - GLF02",
+                startTime: new Date("2024-08-02T09:00"),
+                endTime: new Date("2024-08-02T18:00"),
+            },
+            {
+                name: "Golf - GLF03",
+                startTime: new Date("2024-08-03T09:00"),
+                endTime: new Date("2024-08-03T18:00"),
+            },
+            {
+                name: "Golf - GLF04",
+                startTime: new Date("2024-08-04T09:00"),
+                endTime: new Date("2024-08-04T18:30"),
+            },
+            {
+                name: "Golf - GLF05",
+                startTime: new Date("2024-08-07T09:00"),
+                endTime: new Date("2024-08-07T18:00"),
+            },
+            {
+                name: "Golf - GLF06",
+                startTime: new Date("2024-08-08T09:00"),
+                endTime: new Date("2024-08-08T18:00"),
+            },
+            {
+                name: "Golf - GLF07",
+                startTime: new Date("2024-08-09T09:00"),
+                endTime: new Date("2024-08-09T18:00"),
+            },
+            {
+                name: "Golf - GLF08",
+                startTime: new Date("2024-08-10T09:00"),
+                endTime: new Date("2024-08-10T18:30"),
+            }
+        ]
+    },
+    {
+        id: 42,
+        name: "Artistic gymnastics",
+        selected: false,
+        sessions: [
+            {
+                name: "Artistic gymnastics - GAR01",
+                startTime: new Date("2024-07-27T11:00"),
+                endTime: new Date("2024-07-27T13:30"),
+            },
+            {
+                name: "Artistic gymnastics - GAR02",
+                startTime: new Date("2024-07-27T15:30"),
+                endTime: new Date("2024-07-27T18:00"),
+            },
+            {
+                name: "Artistic gymnastics - GAR03",
+                startTime: new Date("2024-07-27T20:00"),
+                endTime: new Date("2024-07-27T22:30"),
+            },
+            {
+                name: "Artistic gymnastics - GAR04",
+                startTime: new Date("2024-07-28T09:30"),
+                endTime: new Date("2024-07-28T13:20"),
+            },
+            {
+                name: "Artistic gymnastics - GAR05",
+                startTime: new Date("2024-07-28T14:50"),
+                endTime: new Date("2024-07-28T16:30"),
+            },
+            {
+                name: "Artistic gymnastics - GAR06",
+                startTime: new Date("2024-07-28T18:00"),
+                endTime: new Date("2024-07-28T19:40"),
+            },
+            {
+                name: "Artistic gymnastics - GAR07",
+                startTime: new Date("2024-07-28T21:10"),
+                endTime: new Date("2024-07-28T22:50"),
+            },
+            {
+                name: "Artistic gymnastics - GAR08",
+                startTime: new Date("2024-07-29T17:30"),
+                endTime: new Date("2024-07-29T20:30"),
+            },
+            {
+                name: "Artistic gymnastics - GAR09",
+                startTime: new Date("2024-07-30T18:15"),
+                endTime: new Date("2024-07-30T20:30"),
+            },
+            {
+                name: "Artistic gymnastics - GAR10",
+                startTime: new Date("2024-07-31T17:30"),
+                endTime: new Date("2024-07-31T20:15"),
+            },
+            {
+                name: "Artistic gymnastics - GAR11",
+                startTime: new Date("2024-08-01T18:15"),
+                endTime: new Date("2024-08-01T20:25"),
+            },
+            {
+                name: "Artistic gymnastics - GAR12",
+                startTime: new Date("2024-08-03T15:30"),
+                endTime: new Date("2024-08-03T18:00"),
+            },
+            {
+                name: "Artistic gymnastics - GAR13",
+                startTime: new Date("2024-08-04T15:00"),
+                endTime: new Date("2024-08-04T17:25"),
+            },
+            {
+                name: "Artistic gymnastics - GAR14",
+                startTime: new Date("2024-08-05T12:00"),
+                endTime: new Date("2024-08-05T15:15"),
+            }
+        ]
+    },
+    {
+        id: 43,
+        name: "Fencing",
+        selected: false,
+        sessions: [
+            {
+                name: "Fencing - FEN01",
+                startTime: new Date("2024-07-27T10:00"),
+                endTime: new Date("2024-07-27T16:40"),
+            },
+            {
+                name: "Fencing - FEN02",
+                startTime: new Date("2024-07-27T19:00"),
+                endTime: new Date("2024-07-27T22:50"),
+            },
+            {
+                name: "Fencing - FEN03",
+                startTime: new Date("2024-07-28T09:30"),
+                endTime: new Date("2024-07-28T16:50"),
+            },
+            {
+                name: "Fencing - FEN04",
+                startTime: new Date("2024-07-28T19:00"),
+                endTime: new Date("2024-07-28T23:10"),
+            },
+            {
+                name: "Fencing - FEN05",
+                startTime: new Date("2024-07-29T10:00"),
+                endTime: new Date("2024-07-29T16:40"),
+            },
+            {
+                name: "Fencing - FEN06",
+                startTime: new Date("2024-07-29T19:00"),
+                endTime: new Date("2024-07-29T22:50"),
+            },
+            {
+                name: "Fencing - FEN07",
+                startTime: new Date("2024-07-30T09:30"),
+                endTime: new Date("2024-07-30T16:50"),
+            },
+            {
+                name: "Fencing - FEN08",
+                startTime: new Date("2024-07-30T19:00"),
+                endTime: new Date("2024-07-30T23:10"),
+            },
+            {
+                name: "Fencing - FEN09",
+                startTime: new Date("2024-07-31T10:00"),
+                endTime: new Date("2024-07-31T16:40"),
+            },
+            {
+                name: "Fencing - FEN10",
+                startTime: new Date("2024-07-31T19:00"),
+                endTime: new Date("2024-07-31T22:50"),
+            },
+            {
+                name: "Fencing - FEN11",
+                startTime: new Date("2024-08-01T09:30"),
+                endTime: new Date("2024-08-01T16:50"),
+            },
+            {
+                name: "Fencing - FEN12",
+                startTime: new Date("2024-08-01T19:00"),
+                endTime: new Date("2024-08-01T23:10"),
+            },
+            {
+                name: "Fencing - FEN13",
+                startTime: new Date("2024-08-02T10:00"),
+                endTime: new Date("2024-08-02T16:40"),
+            },
+            {
+                name: "Fencing - FEN14",
+                startTime: new Date("2024-08-02T19:00"),
+                endTime: new Date("2024-08-02T22:50"),
+            },
+            {
+                name: "Fencing - FEN15",
+                startTime: new Date("2024-08-03T09:30"),
+                endTime: new Date("2024-08-03T16:50"),
+            },
+            {
+                name: "Fencing - FEN16",
+                startTime: new Date("2024-08-03T19:00"),
+                endTime: new Date("2024-08-03T23:10"),
+            },
+            {
+                name: "Fencing - FEN17",
+                startTime: new Date("2024-08-04T10:00"),
+                endTime: new Date("2024-08-04T17:10"),
+            },
+            {
+                name: "Fencing - FEN18",
+                startTime: new Date("2024-08-04T19:10"),
+                endTime: new Date("2024-08-04T22:10"),
+            }
+        ]
+    },
 ];
-    
+
 
 
 // função para renderizar os dados na lista
